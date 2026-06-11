@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-06-11 08:55:24",
+    "updated_at": "2026-06-11 09:13:52",
     "macro": {
         "US30Y": {
             "price": 5.01,
@@ -17,143 +17,111 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 88.87,
-            "change": -1.16,
+            "price": 89.27,
+            "change": -0.76,
             "direction": "down"
         },
         "BRENT": {
-            "price": 91.84,
-            "change": -1.26,
+            "price": 92.3,
+            "change": -0.8,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 153.05,
-            "change": 0.47,
+            "price": 153.15,
+            "change": 0.57,
             "direction": "up"
         },
         "VIX": {
-            "price": 20.59,
-            "change": 0.72,
+            "price": 20.57,
+            "change": 0.7,
             "direction": "up"
         }
     },
     "kr_dart": {
-        "SK하이닉스": [
+        "헬릭스미스": [
             {
-                "title": "[공시분석] 한미반도체, SK하이닉스와 442억 규모 ′HBM4 TC 본더′ 계약…글로벌 강자 입증 - 알파경제",
-                "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NeGdrNldCOC1KZktiTXhoMkEwUnZJek9mZFAzNXBvRUV2ZU50aU14R3lwU1ZaNXhVUWRXUFk3TExSRlBhb3VheVJCalFMQ0toTFRuZVZsTFBFV2puR1E?oc=5"
-            },
-            {
-                "title": "한미반도체, SK하이닉스 HBM4 투자 수혜…442억 수주 [공시pick] - 조세일보",
-                "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14RzFkd3RVZ01mUGhfYThNVGk1SHpkcFZkcDE0RUo2bmZWZEtUTUd4SE56MEtESmxGTlpxXzFNSVZMdXNyNVpGZjBBRU0yc1QzanVOc004WnBKQ1ZYalI0b3ZuQWY1X2JiUlE?oc=5"
-            },
-            {
-                "title": "캐피탈그룹, SK하이닉스는 팔고 KT&G는 샀다 - 매일경제 마켓",
-                "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XZGtXSkNlWDBLa2Q4TUtQaXBjQ19JT21QV1Z0MnlWX0xlNXh1NUpPbkE4djNjOXJYZVFiWDF2OWJCNzdoMnBpTy0xYmdibm0tX1E?oc=5"
+                "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
+                "link": "https://dart.fss.or.kr"
             }
         ],
-        "현대차": [
+        "남성": [
             {
-                "title": "현대건설, 위례 복정역세권 3조원 시공계약 체결…‘현대차 거점’ 본궤도 - 에너지경제신문",
-                "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RVllFZjctYmNnTUhaT0gzeEFUR19jOVY5S2FnQmFtWmlyVm1EWFg3TTdTbW9WUm9YTEo5dzZtaVJONFVCd1Qxd0xWc2R6MV91dVFqQUUwX0N0b3M?oc=5"
-            },
-            {
-                "title": "[지배구조 리포트] 6년째 '정의선 원톱 이사회' 이어가는 현대차 - v.daum.net",
-                "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5pYS1GMll2Ymh3cWxWdDdsXzN0MUliNXd4R3Q4UHJjQXktMS1WUlM5SDN0UGtyVDFYeWl0ajFUeFhGbW9Cb0dsSWZYVQ?oc=5"
-            },
-            {
-                "title": "현대차 인도 첸나이 공장, 협력사 화재 후 운영 재개…22일 정상화 목표 - 아주경제",
-                "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBNbTVObnBLbVZseUx1Z3NkLTlXVXNsekg4dzRkbHpBQkNPYmxzVE13UnRLaWJLUUFSZHZxbEhJWHk0QWJ6TTE4TFhBajV3cUtHSEQzNWY5QWzSAVhBVV95cUxQTW01Tm5wS21WbHlMdWdzZC05V1VzbHpIOHc0ZGx6QUJDT2Jsc1RNd1J0S2liS1FBUmR2cWxISVh5NEFiek0xOExYQWo1d3FLR0hEMzVmOUFs?oc=5"
+                "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
+                "link": "https://dart.fss.or.kr"
             }
         ],
-        "POSCO홀딩스": [
+        "현대제철": [
             {
-                "title": "POSCO홀딩스, 불성실공시법인 지정예고→투자자 주의 요구 - TopStarNews",
-                "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5lcTBoY2NudlZDd3NvOWptSDJlb3pFdXhKZ1BrRW1sODFCLXJMcFVMNXdQYTVPZGFudjhfM0R2RDVoV2w0bjREZWhIcS1fRXF1QjlFZ3JZQjdFM2ZMa2dzZnRrdVVTM09LM2RqallOYmxLUQ?oc=5"
-            },
-            {
-                "title": "[오늘의 주요공시] 포스코홀딩스ㆍ포스코이앤씨ㆍ서부T&D 등 - 이투데이",
-                "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1sV0hUb3MzWnBPQnoyMWZ0d2VhbXJVelBRRHprY0NWSUc4RE9Od1ZydlAxQ0drVUlpb3kxWHN5NkdNc1RrZkhaOHpXNW91UmVzWk43TA?oc=5"
-            },
-            {
-                "title": "포스코홀딩스, 신안산선 사망사고 지연 공시…불성실공시법인 지정 예고 - 부산일보",
-                "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB6LXk4WHhyNlNNZlBxOWZ5N05KY0U0STRwb0tRU2ZfZUYyaHlVV05fQ3dBakp0alRtT0tibzZrOHVUZWJxenRtUEdfMjhkaXZwUUdpNzJjVjA0S0pERzBidzJ4TkhNNjZmWWpLQldoSHBHUWNw?oc=5"
+                "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
+                "link": "https://dart.fss.or.kr"
             }
         ],
         "삼성전자": [
             {
-                "title": "[공시] 디아이, 삼성전자와 725억 반도체 검사장비 공급계약 - 글로벌이코노믹",
-                "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeUIxR1RZTnB5RkhQWVNNVERMYmY0LVpHSGNOeE9pN1M3QjJhX0Fac0l3LVJSQWZ5ZzJrdlllU2F4a1IzUUg4LUludTMzUW14Y1ZaUG5XUTJLbGl4aFpZY3NsQkJGczZtR0Y0V0w0NEN1a2Z0YjBuTWxLSGVYdC1OLXA3UVRlaUdD?oc=5"
-            },
-            {
-                "title": "디아이, 삼성전자에 725억 규모 반도체 검사장비 공급 [공시pick] - 조세일보",
-                "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5hR0lZTE5JUXk3X1cwM0taZUFEVVA2RHhsQUJ0MVB0cFhMbENTQ0FPZ2VlVGJNVlRGT0VReTBLcW9aNUttZHl6aTNUYzFMMkppLW50cG5tNjd6UmEtRGo3cXgtbzhfQkx1eWNsakcwNA?oc=5"
-            },
-            {
-                "title": "삼성 투자전문 사장도 ‘고점 매수’…삼성전자-엔비디아 ‘AI 랠리’ - v.daum.net",
-                "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1kY1dRTzhQb3pHb1JfUmkzWWEyUjRsbElYMU4zOEw2ejlheTZOQlliNDhwZFdubDMtb3lRYjNfdmlwNUhxWDZCY2QxQnNnbU0?oc=5"
+                "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
+                "link": "https://dart.fss.or.kr"
             }
         ],
-        "가비아": [
+        "케이피항공산업": [
             {
-                "title": "최근 7일간 주요 공시성 뉴스가 없습니다.",
-                "link": "#"
+                "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
+                "link": "https://dart.fss.or.kr"
             }
         ]
     },
     "us_news": {
-        "GOOGL": [
+        "SOXL": [
             {
-                "title": "Alphabet (NasdaqGS:GOOGL) Valuation Check As Share Price Momentum Cools After Strong Year - Yahoo Finance",
-                "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTEtNQzdXUXRmZ0ZRMFM1YVFkendIZDdQWDQ2a20yTGVZQ1drekFoSFVQc0ZLSWstSVpKcDVfNXU1aGxRR1drdXVabEVOUlhGOUJZRWhYYU51cXBMR25qY3k0cWVVc0ZRWUFvVVg5aXNlRWNUOHU1TnNPUzRtMWZQekU4Sm9jbnY4dFdzeGNNSUJiTWtaUldLbzFjTmwtM3JyN00ycEQ3UQ?oc=5"
+                "title": "SOXL, DRAM Bulls Clash With Short Sellers, Unfazed by Micron's Slump: Short Seller Tracker - Moomoo",
+                "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV2NRR2Y5Q0tLT1hiaXVINGZwQTRhTDk0QmRyYWE0N2w5d0tORG1mcUF5VkNRcWc0VmZDd3BvdVF4Q0JDSS1JQ2pGbmNIT3U0ODRMTmJPbHF0VlVMQl9iZFI4d3FPYzZDZUJ3Q2lUd1ZqQW1ZZWUwaXN4RlJSNlNIMVNRU2MtOHMzRng4MkpiOUtTVm41WThMYzZWNXJCWTJuekVIVzMxZXpMZUt6UXZ0ck1R?oc=5"
             },
             {
-                "title": "Google Stock Weakens After Launch of Real-Time Speech AI Tool - TradingView",
-                "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcDk5eS0yYkdzZXNBM0FsUUZyRTFjTmQzQVZKSS0wc3ZvWEdBMmwybHNnUjdyY2dBbG9PaDR5UmpCVk5xSm9pdGd0ZWY0OWV5YnRfRmhLLVBxU3lQYnk0aVJvWVY0S1BUVjNQSVFoZEI5a1VRWlBwRmt2Zmc3WjhpWXRHR0ZIcnRzWnZqd2pKd29EZ0YyUXU0aVBBTGtUaWdCY3M0QjJpYmV6bDRTb0p3SzhzSTJDQ3JsdDdxcVVn?oc=5"
+                "title": "Carlos Alcaraz Finalist Speech | Monte Carlo 2026 Soxl Stock (UJGdwo5dBS) - Mshale",
+                "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JUVpKLWoxaVFMRFhfdGpPQ3VETWVQNUh1dVF0SWM0OFBUNWpTV0J4Y0JCY2RXTlh2OEwyU1Y5VDUwT2JjN0NITktMYkFFUzl4bWU5c1NHSW5TNDUybVpBaQ?oc=5"
             },
             {
-                "title": "Prediction: Google Stock Will Hit $500 on This Date - 24/7 Wall St.",
-                "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdlNfNWRhRzY5WkluYkpRM1BVSldLbkZ6cUwyTDY1VzV6QndfalN3WmVyZDM0Y2cwOG1hM1lTNG5nZm9KM2dBeWxvXzZ6VE9UTGYxSlZLX0xodlFQaDFIT2Vzc0lGOHFHclpHNDc4bWJHQXgtN1FnVFVOSEVURWNObnVidFpxT3hvbW82WVlLdi1wbGR3b2VuMA?oc=5"
+                "title": "Michael Burry Says SOX 'Will Return To Earth' — And Reveals Fresh $330 Puts On Key Semiconductor ETF - Stocktwits",
+                "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRk1rRGNMLXFtdjVFR1MzbXJsU2k3Y3Q5SHRfNk9YZXNUeVZZeW0yc25kUkVEYWpPVzZvMjlNVHpIS3lNU01tVS1xZklCa2hPOVF2LWZJanpMQ19FVkY2cEljSUdWMDh3OWhCRG1TVHI1YVF6bnRqT3hsbnR5WnBwbE9VSVFSeEFSVkxYS1UtYW85Nzh0UDFsd2VYd0lwNF9WM1MxT2tRWG1pemVaNVprVFNsVUQ4ZlFLX0ZBMUtUS0Y5QjNBdjVFb3h0ME1kYzdlbXFmSUxBb29Fc29OM0tGaUszVXd4Zw?oc=5"
             },
             {
-                "title": "Follow The Money: How Blackstone's AI Kingmaker Role Spans Google, Anthropic And More - Investor's Business Daily",
-                "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTW9Zd0oxVlRWNDNPYzYyR29wd2F2bUZVOFhsVWQ1Rkx0Q3FfTUE3bEhnWUlibGVjSURGY1NBZVNFOEluUGQzV0k4VVpEQ1JPLWJSdmNNblBJZnk2UXdHYzVWWkR0bGdEemNXakhqRVZlSGRxOHc0eDJZQm9fUzIxelJpSVB3VlNvMnd3WklxTkRNZFk5Z1Yxb19GSWxpTGJZdlZFYl9B?oc=5"
+                "title": "Tech stocks plunge as chip ETF SOXL drops 16%, AMD falls 6% amid fading recovery and SpaceX IPO jitters - Pluang",
+                "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9lNGViZG45SlF5aHhsaWtJeWU2U1pJdGZpejVrSEZoS1ZweW1MUnlYcXh0TjQ5NmM2cXlKWDFIQm1CODRGdUpNcWlmdFdxdjlCSEstUTAtSVJhejlPZkUtVUxNVk1HY1duTjlqSGtZcXdIejAxVkhtUlRn?oc=5"
             }
         ],
-        "AMZN": [
+        "QQQM": [
             {
-                "title": "Where Will Amazon Stock Be in 3 Years? - The Motley Fool",
-                "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWlhfaC1ZVGJvelhRRGxLc3RER2VsTmtRU19MUU80WGprdHR4UEhaWU5EY1FMZTJYczFvTFBwb0pPcGIzam9EUUlUU0lwM20xVHRZNEEyUTNIajdCdVFrUFdFR0YzaXBOakQ5czRrMzRIdGZYMDRvby11WFRpZ1pkclRMalZJcnc?oc=5"
+                "title": "QQQ vs. QQQM: Same Index, So Which One Should You Actually Buy? - Yahoo Finance",
+                "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMmhCV1Z1N0RDclZNc2xRendVZHk3V2RKak9JV3l1NWxoUzJUWTNxZXVXLUZkT2JtVUdDRWY0TmpMOF9vR0szOEhzcG9QZFZNWUFWeXFGWG9FN3F2VGFYMjBEYm5xN0VXS3RCaU5EVnRrMXJuU1U4XzN3X3ZITmJ5RWJEaldoUnVYemRBQzhGNEY?oc=5"
             },
             {
-                "title": "Amazon’s New LTL Freight Push And What It Could Mean For AMZN Stock - simplywall.st",
-                "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWnkweE5JcUU3RFN1eHJVc3lCalJpVEdBQi1RZEpYQmU0cVRzU0RsVDBmeW5rbmJGQURvTl9NZmpaUXlPMGNBX0VhWGMxSzBnNE81YTd2c0RWMGlwMC1DSUNGWElyeUpycnF2MmxiQi1JTk9wSGVMZ3JXbi03UVlueHVudW12VFNTY3YyY2FBd1NtbEpLSUEwTFZmVlNVWjdrYWZTQUNLaTJXNGVJMW1HbmwxMThmOU9FVEY0OUpPbWhvcUR20gHKAUFVX3lxTE9PWTJabUxNZ1BhcFQ5dkhMSkpTMlFVUHdfZjlkSlotVzdNeU5ZYlZQSGZDSXpDNEVZczJLVzBId0JhVXd0WnBrdkJTMC10bnF0QmQ5ZTNLaHBxbzVjWk1NTF9nTVZWNXRFMVpVQnJfYmM2Y19HT2hpbmh3b0F5MlctZjREUDg2aTNJRUpkYUZqYXl3LVk3bmZOUTNZOEdKTi15QWNLQUZ6NlpOZWJtZUxWNDN2YjVyUUM0cDk5dFJmaXU5emRXMGcyNGc?oc=5"
+                "title": "QQQ vs. QQQM: Same Index, So Which One Should You Actually Buy? - 24/7 Wall St.",
+                "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONERuNDdWTHBoU2IzZlVVZXE5NUtzTTF1UGZkOXdPcFhGR3lnUmllMjN0V0piRzhJckZhdC1RSmMwU3NVNU5vNExpMGkyekJlNVA1dDJBNjdiaGtYRW1OSFVyTmZ2aGU5OG5BNmFWLVpIQjJnVjN2cHVyR0d5ZzIxRXJZNThFUkxKY1YxajZHeG9xRVlmNTVLRG95Z0hORXhqVkZtaHJR?oc=5"
             },
             {
-                "title": "5 Catalysts to Monitor Over In The Next 2 Quarters For AMZN Stock - Trefis",
-                "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQS1ZU2lWVWhhLUE2Rnd1cHMxa01uR2FRNXRKQnRoTUJCYVJKcUhMeDFZWXh2bWxuN3RNQS1pOW9mVlZJQnUzN2g1MThDbUVzVG8zSDBxZDF1QkEwUjVnbThFakYzZlA4Q0k0SXh4UzdSa3JfT2JrNkd3cF9mU0QtYUZ0VWMyMGVSUnpsOWh3N3NRY0NhamdJT1c2Z1J0X3NPTmxYRXlocHpxTl9NbDNHNk96T2w3bFFRWTlNbXVmRmRKc3BveEdz?oc=5"
+                "title": "Better Growth ETF: QQQM vs. VGT - AOL.com",
+                "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE42MVZkTEE2UVpRdmg3cGQtWWpacHo0NEFZbFdSYjhDU1M0dlkzNDlWNVZUMjJ6TTFTZGdnNi1GX3ZDczJYb055SkZORzJ1Qy1YQzFKN2xRZ21IYnhUdHZKMFNPSGJWSFZEbDBvTDYtUnM0MGhPUmhjSw?oc=5"
             },
             {
-                "title": "Amazon.com Inc. (AMZN) Buy Rating Reiterated by BofA Securities - Yahoo Finance",
-                "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNX1hMbTlreFM0WEtpbVNhdnRvNmVudG9KUVUtYWxobWRNeEhDcTF4bGJoZ0FWbzVmckxEOGV6RkVRR3F4bzExMVRrWDhRLWdRb2tiSml3NnlhcXNnNTRfNkVYUGFZT19sWjVpVEFYZXVqc1lMX0VPZmdiUmJDSFd2Q1VRMWNPcnVKa1JFTkhkZGVrQQ?oc=5"
+                "title": "Family Legacy Financial Solutions, LLC's Invesco NASDAQ 100 ETF(QQQM) Holding History - GuruFocus",
+                "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRXQ1WGNrek9lRGViQjhlRHZKaDlEcEJRVTlJX25PRVZOcGROSXdldWpwWkZZSkNUaUNGOEROeWM4WkhFa3hYYU5zMkNTRnMzUXkzOWd5SUEybUZnSTdHZThBN0lJUk1ILWRVRlp3VGE5eURlckkxS05QZVlTS0lfQXducUpLM0xDWEEzLVNlQ0JQNExTd2Nz?oc=5"
             }
         ],
-        "NVDA": [
+        "SCHD": [
             {
-                "title": "SpaceX Just Announced Fantastic News to Nvidia Stock Investors - Yahoo Finance",
-                "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOTkxXy1NbDdxeUhidWNVTC1CWU5HampRRnFNOUZHV1ZwZWhrclN6YjBFRV9PbVAzWnNDXzdCazQ5Q0dmTkx6ZTZvOU9JdzhoTlFlc0JOOUt3eTZudjQwM3ZPZTFVNzFySEdiX3RZOG55QmZLQkY5WWVXQ1ZPdGZCV08tSV9JRmE4LVVLeDhjNE5UMWNfZ1d6eHB0LTNTVXF4VnIw?oc=5"
+                "title": "SCHD vs. VYM: Which Dividend ETF Builds a Better Income Stream? - Yahoo Finance",
+                "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWDREUHdoSDhIVGx6eEViMTNpQ1lveVBXWUNGZ2VGWWlNc0Y3NmcxWHZERGp4Z1VpNGt4MzRSQmJVbW1EMGZ2Ujk1S0xEWlhuWk5wMUN3UVE4S1FrOGRKbi1IQmhjbFNjMzNOaDQzQktNSU9meFIzTGNJTHZUblRyZU40NlVBMzFBMUY5N1d3S28tV3M?oc=5"
             },
             {
-                "title": "SpaceX Just Announced Fantastic News to Nvidia Stock Investors - The Motley Fool",
-                "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcWRTNnl5enFSMVZia1hQZVM0UUdqN0Nfa2RCV2lYcVMxdldjYjBPU1llWVkySzhBZFdLUmh6YW1DSXphR3kzeDc5ZnFVOFFOck9Va2dUbTd2QkpUV25IUmExN0U5WjNidC1KVmNEVnUtVi1aNThwWmwyZ0paNHVoWEZSTzZxS0RjeHlueEh1SVV5ZUVlTnRTUQ?oc=5"
+                "title": "SCHD’s $85 Billion Strategy Now Concentrates 41 Percent of Your Money in Just Ten Stocks - AOL.com",
+                "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5vdU05NTVJUjZkUG0wWUR5TEhSME5wZ0YxVGhHNW5CNHc5UFZ2c3N4emg5TkJIaDdqZ3BGVFA4Y01hbVZvamljVWR4VGhUVC14VmdsS2o1bUxleEZkdjNoY01uVG1RelBVSXdZMEQ3SnZIRzg0aDhzbDB4VXk?oc=5"
             },
             {
-                "title": "Nvidia Stock Trades Cheaper Than the S&P 500, and Looks Even More Like a Value Play - Barron's",
-                "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZ0sxQXFITktEdFBTMFdPbjlrSnBQQm80UGJzRC0zTEJneHUyUXllNkd2aTZPWWx0ZU8wSk1EelFjOWE0ZDRkX3habFdmNk5welRzXzF0Tjd0dGtiUXB2emhLc0ZSUW02d0tiNVJUTEd5RkJyQndjVnpGc0xwNk44SA?oc=5"
+                "title": "SCHD vs. VYM: Which Dividend ETF Builds a Better Income Stream? - 24/7 Wall St.",
+                "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWGxPSmV2Q3ZldFhXM0RVQXlwMThXWTVVUmpfM09QeEdEZFVTVE84VmNidXUzeTBjY0pwVlF0Y3BpNm9TajdoTnlPV0gzcmI3aGhLMHNSRHk4R3B4QWZQakZEVmx6UnE0RWF0STFWamtldzJSdTEwYkVCNnhucTEwNEZGZHhlWGgwZjR6NTlDVDdkVmMtd2xPd0owZl9qZWFrMEF4RElfWQ?oc=5"
             },
             {
-                "title": "Nvidia (NVDA) Stock Quotes, Company News And Chart Analysis - Investor's Business Daily",
-                "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNX2ZhLWp6SHRtd2ZSclFXaEZlbHM2Tkd5c0tVWUp4dWRDVzU4eWkyMTU0a3Q1bWtCLWxkQzFqbVkza0R1bXBhZV9JaHEtOTBDRW40M3VpY3czQldHRzhwbVQxQXJmR1gxV0lpNEJSX09PdlZTdTczLXpZOFZ6LTBPYXgyamdHa0gyNTQ1ZTlhVVQ?oc=5"
+                "title": "HDV: Less Stable Than SCHD With No Dividend Or Quality Advantage (NYSEARCA:HDV) - Seeking Alpha",
+                "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObm96eFVGeUJnNF9aaXFIOGNicFotcmlfV1ZQTzRwbHZSWlBSLVJUbmw4ZkdwR2JvbjBtSE9fcVV4dVNaekJiT3BoMlBTekJNY3hCT3ZIbDhYdEpwQjllWUtjMG14b2M0NDFoXzNsQnBqWTllNzVBY2JKNUpGa2VaTW5uWjZ1MVZGSUlJS3d5cUpmSlV1SGNETnR4d1VpS2hsSnZkT0Q2MA?oc=5"
             }
         ],
         "TSLA": [
@@ -166,8 +134,8 @@
                 "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBBdm9zMTBkY3J4VlJwbUJERTJzQ3AyNF8wV1ZMV0xtbUlHMTZrZlpET2xTN01lV2pTa3ZRekJSS0RCNG9QNm95UUVvM3pHQjNNSVVycXhfMTBLUFJEdExsd1RKRks1MGhva1EtR3FPbzhwUWs?oc=5"
             },
             {
-                "title": "TSLA Stock Sinks As SpaceX IPO Nears — Analyst Says Investors Are Selling Tesla To Catch A Day-1 Pop In Next Musk Trade - Stocktwits",
-                "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOWhTS3VHemxZNE92eHVGb0lhLW56UE5PaWJBblZkVzJCX21LR0hJZEN3bGpVRHoyQWRrUW9YekJGeGNmR0FncU5pUmEzWHBLWkxOVUNQRWhVcXNjR25MRkhGY21nSlQ2SmRxWWRaZFVKdWRSVU9HdU1NM25NUUtrOU1ZazNwMWh4dnc4TjIwS1hvQUgxOG5CanI2S1ptZGFFWTRFODlBVTg2WWtPSkRmbzJMS1pJRkF2VTNn?oc=5"
+                "title": "TSLA Stock On Track For Worst Week In A Year On Fresh Roadster Delay As Musk’s April Promise Fades - Stocktwits",
+                "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTXpzV2drdVRITXRXaFBEdGsxdFdTR2FSazBFMDJKWUJ4MF8tWWNZQnEwT2tpYXh5cmFEOUZGemN2dUV0ZTFjbjZHNDdXZ005bXV6UlVkVzNJc05Yc0t0Ri0ySzBCOXItVTI5eGZUTFRMTm10RXlLMkhFZWpnbjNvSkVoSnN0V09XaV9ucVNfeWdLWkIzQXNHWDJBZXRsNktwcl80bE40a3g2aS1ibEZwMEJodmlqYTd4UmFGdldSNTdOeElValkwWjU4YWpWNnY0YnQ4VzE1aHRzaTJIMUZqX29CaktiQUxYU2NyZFdoWQ?oc=5"
             },
             {
                 "title": "Prediction: Tesla Stock Will Hit $500 on This Date - 24/7 Wall St.",
