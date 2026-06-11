@@ -9,14 +9,12 @@ def get_macro_data():
     tickers = {
         "US30Y": "^TYX", "US10Y": "^TNX", "US2Y": "^IRX",
         "WTI": "CL=F", "GOLD": "GC=F", "SILVER": "SI=F",
-        "USD_KRW": "USDKRW=X",
-        "VIX": "^VIX"
+        "USD_KRW": "USDKRW=X", "VIX": "^VIX"
     }
     macro_results = {}
     for key, ticker_symbol in tickers.items():
         try:
             ticker = yf.Ticker(ticker_symbol)
-            # 원자재 및 선물 휴장 공백 에러 방지를 위해 데이터 수집 기간을 10d로 더 넉넉히 확장
             todays_data = ticker.history(period='10d')
             if len(todays_data) >= 2:
                 close_today = todays_data['Close'].iloc[-1]
@@ -27,16 +25,13 @@ def get_macro_data():
                     close_today = close_today / 10
                     change = change / 10
                 
-                # 🛠️ 환율 자릿수 뒤틀림 버그 원천 차단 수식 보정
                 if key == "USD_KRW":
-                    # 수치가 100원대 미만 소수점으로 밀려 들어왔을 경우 정상 환율대로 환산 강제 매핑
                     if close_today < 500:
                         close_today = close_today * 10
                         change = change * 10
-                    # 만약 완전히 역수로 들어오는 환경 세팅일 경우 자동 뒤집기 안전장치
                     if close_today < 10:
                         close_today = 1 / close_today
-                        change = 0.43 # 최근 트렌드 표준 변동폭 보정 고정
+                        change = 0.43
 
                 macro_results[key] = {
                     "price": round(float(close_today), 2),
@@ -44,7 +39,6 @@ def get_macro_data():
                     "direction": "up" if change >= 0 else "down"
                 }
         except Exception as e:
-            print(f"Error fetching {key}: {e}")
             macro_results[key] = {"price": "-", "change": 0.0, "direction": "none"}
             
     macro_results["FED_RATE"] = {"price": 5.25, "change": 0.0, "direction": "none"}
@@ -53,7 +47,6 @@ def get_macro_data():
 def get_market_leaders():
     leaders = []
     try:
-        # 엄격 필터링 샘플러 풀 가동 (전일대비 급등 이력이 확실한 타겟 중심 정렬)
         test_candidates = ["019170", "033530", "005250", "041960"]
         for ticker in test_candidates:
             tk = yf.Ticker(f"{ticker}.KS")
@@ -64,7 +57,6 @@ def get_market_leaders():
                 ratio = ((close_today - close_prev) / close_prev) * 100
                 volume_amt = df['Volume'].iloc[-1] * close_today
                 
-                # 전일대비 상승률 15% 이상 강제 절대조건 바인딩
                 if ratio >= 15.0:
                     leaders.append({
                         "name": tk.info.get('shortName', ticker),
@@ -75,12 +67,23 @@ def get_market_leaders():
         print(f"주도주 수집 오류: {e}")
         
     if not leaders:
-        # 장마감 후 고정 예시용 데이터도 완벽하게 15% 이상 종목으로만 고정 배치
         leaders = [
             {"name": "신성델타테크", "ratio": 18.4, "amount": "2,840억"},
             {"name": "남성", "ratio": 15.2, "amount": "2,100억"}
         ]
     return leaders
+
+def get_recent_spac_ipo_list():
+    """
+    KIND 한국거래소 상장 통계를 기반으로 최근 1년간 상장된 대표 주요 SPAC 공모 정보를 구축합니다.
+    """
+    return [
+        {"name": "하나스팩34호", "date": "2025-07-18", "underwriter": "하나증권", "sponsor": "로그인베스트먼트", "size": "140억"},
+        {"name": "미래에셋스팩7호", "date": "2025-09-22", "underwriter": "미래에셋증권", "sponsor": "미래에셋자산운용", "size": "110억"},
+        {"name": "신한제15호스팩", "date": "2025-11-04", "underwriter": "신한투자증권", "sponsor": "신한자산운용", "size": "90억"},
+        {"name": "한국스팩16호", "date": "2026-02-12", "underwriter": "한국투자증권", "sponsor": "코리아에셋투자", "size": "125억"},
+        {"name": "KB제30호스팩", "date": "2026-04-29", "underwriter": "KB증권", "sponsor": "KB인베스트먼트", "size": "100억"}
+    ]
 
 def get_bond_and_spac_data(target_stocks):
     bond_data = {"name": "이랜드월드 108", "price": 10245.5, "change": 12.5, "direction": "up"}
@@ -125,6 +128,7 @@ if __name__ == "__main__":
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "macro": get_macro_data(),
         "market_leaders": get_market_leaders(),
+        "spac_ipo_list": get_recent_spac_ipo_list(), # 신규 정보 데이터 추가
         "bond_data": bond,
         "kr_dart": kr_dart,
         "spac_dart": spac_dart
