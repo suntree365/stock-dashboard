@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-06-11 09:51:22",
+    "updated_at": "2026-06-11 10:03:32",
     "macro": {
         "US30Y": {
             "price": 5.03,
@@ -17,68 +17,90 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 89.72,
-            "change": -0.31,
+            "price": 89.41,
+            "change": -0.62,
             "direction": "down"
         },
-        "BRENT": {
-            "price": 92.64,
-            "change": -0.46,
+        "GOLD": {
+            "price": 4112.0,
+            "change": 3.8,
+            "direction": "up"
+        },
+        "SILVER": {
+            "price": 64.22,
+            "change": -0.38,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 153.06,
-            "change": 0.48,
+            "price": 1530.48,
+            "change": 4.67,
             "direction": "up"
         },
         "VIX": {
-            "price": 20.62,
-            "change": -1.6,
+            "price": 20.61,
+            "change": -1.61,
             "direction": "down"
+        },
+        "FED_RATE": {
+            "price": 5.25,
+            "change": 0.0,
+            "direction": "none"
         }
     },
     "market_leaders": [
         {
-            "name": "삼성전자",
-            "ratio": -1.16,
-            "amount": "115819.1억"
+            "name": "신성델타테크",
+            "ratio": 18.4,
+            "amount": "2,840억"
         },
         {
-            "name": "SK하이닉스",
-            "ratio": 2.59,
-            "amount": "167975.4억"
+            "name": "남성",
+            "ratio": 15.2,
+            "amount": "2,100억"
         }
     ],
+    "bond_data": {
+        "name": "이랜드월드 108",
+        "price": 10245.5,
+        "change": 12.5,
+        "direction": "up"
+    },
     "kr_dart": {
         "헬릭스미스": [
             {
                 "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
-                "link": "https://dart.fss.or.kr"
+                "link": "#"
             }
         ],
         "남성": [
             {
                 "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
-                "link": "https://dart.fss.or.kr"
+                "link": "#"
             }
         ],
         "현대제철": [
             {
                 "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
-                "link": "https://dart.fss.or.kr"
+                "link": "#"
             }
         ],
         "삼성전자": [
             {
                 "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
-                "link": "https://dart.fss.or.kr"
+                "link": "#"
             }
         ],
         "케이피에이치공산업": [
             {
                 "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
-                "link": "https://dart.fss.or.kr"
+                "link": "#"
             }
         ]
-    }
+    },
+    "spac_dart": [
+        {
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
+        }
+    ]
 }
