@@ -1,42 +1,54 @@
 {
-    "updated_at": "2026-06-11 09:16:16",
+    "updated_at": "2026-06-11 09:51:22",
     "macro": {
         "US30Y": {
-            "price": 5.01,
-            "change": -0.01,
-            "direction": "down"
-        },
-        "US10Y": {
-            "price": 4.53,
-            "change": -0.02,
-            "direction": "down"
-        },
-        "US2Y": {
-            "price": 3.63,
+            "price": 5.03,
             "change": 0.01,
             "direction": "up"
         },
+        "US10Y": {
+            "price": 4.54,
+            "change": 0.01,
+            "direction": "up"
+        },
+        "US2Y": {
+            "price": 3.63,
+            "change": 0.0,
+            "direction": "up"
+        },
         "WTI": {
-            "price": 89.23,
-            "change": -0.8,
+            "price": 89.72,
+            "change": -0.31,
             "direction": "down"
         },
         "BRENT": {
-            "price": 92.2,
-            "change": -0.9,
+            "price": 92.64,
+            "change": -0.46,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 153.16,
-            "change": 0.58,
+            "price": 153.06,
+            "change": 0.48,
             "direction": "up"
         },
         "VIX": {
-            "price": 20.57,
-            "change": 0.7,
-            "direction": "up"
+            "price": 20.62,
+            "change": -1.6,
+            "direction": "down"
         }
     },
+    "market_leaders": [
+        {
+            "name": "삼성전자",
+            "ratio": -1.16,
+            "amount": "115819.1억"
+        },
+        {
+            "name": "SK하이닉스",
+            "ratio": 2.59,
+            "amount": "167975.4억"
+        }
+    ],
     "kr_dart": {
         "헬릭스미스": [
             {
@@ -62,84 +74,10 @@
                 "link": "https://dart.fss.or.kr"
             }
         ],
-        "케이피항공산업": [
+        "케이피에이치공산업": [
             {
                 "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
                 "link": "https://dart.fss.or.kr"
-            }
-        ]
-    },
-    "us_news": {
-        "SOXL": [
-            {
-                "title": "SOXL, DRAM Bulls Clash With Short Sellers, Unfazed by Micron's Slump: Short Seller Tracker - Moomoo",
-                "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV2NRR2Y5Q0tLT1hiaXVINGZwQTRhTDk0QmRyYWE0N2w5d0tORG1mcUF5VkNRcWc0VmZDd3BvdVF4Q0JDSS1JQ2pGbmNIT3U0ODRMTmJPbHF0VlVMQl9iZFI4d3FPYzZDZUJ3Q2lUd1ZqQW1ZZWUwaXN4RlJSNlNIMVNRU2MtOHMzRng4MkpiOUtTVm41WThMYzZWNXJCWTJuekVIVzMxZXpMZUt6UXZ0ck1R?oc=5"
-            },
-            {
-                "title": "Carlos Alcaraz Finalist Speech | Monte Carlo 2026 Soxl Stock (UJGdwo5dBS) - Mshale",
-                "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JUVpKLWoxaVFMRFhfdGpPQ3VETWVQNUh1dVF0SWM0OFBUNWpTV0J4Y0JCY2RXTlh2OEwyU1Y5VDUwT2JjN0NITktMYkFFUzl4bWU5c1NHSW5TNDUybVpBaQ?oc=5"
-            },
-            {
-                "title": "Michael Burry Says SOX 'Will Return To Earth' — And Reveals Fresh $330 Puts On Key Semiconductor ETF - Stocktwits",
-                "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRk1rRGNMLXFtdjVFR1MzbXJsU2k3Y3Q5SHRfNk9YZXNUeVZZeW0yc25kUkVEYWpPVzZvMjlNVHpIS3lNU01tVS1xZklCa2hPOVF2LWZJanpMQ19FVkY2cEljSUdWMDh3OWhCRG1TVHI1YVF6bnRqT3hsbnR5WnBwbE9VSVFSeEFSVkxYS1UtYW85Nzh0UDFsd2VYd0lwNF9WM1MxT2tRWG1pemVaNVprVFNsVUQ4ZlFLX0ZBMUtUS0Y5QjNBdjVFb3h0ME1kYzdlbXFmSUxBb29Fc29OM0tGaUszVXd4Zw?oc=5"
-            },
-            {
-                "title": "SOXL Stock Analysis: Is This 55% Drop A Buying Opportunity? 💥 Price Predictions Inside! Blue Jays Score (Srn4FA5gLP) - Fathom Journal",
-                "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0waWlkYU9UOWJZX3Z1blNXajZMc243LXoxcENBZVVEeHNFaG9nUjc0a3NFM3Z1eHNMVFI3b3FpQWR4ZUc1bVBodlJuaHpLVzkzVG9ZNXhUNW1UVEFEQnA1T0NzY2c?oc=5"
-            }
-        ],
-        "QQQM": [
-            {
-                "title": "QQQ vs. QQQM: Same Index, So Which One Should You Actually Buy? - Yahoo Finance",
-                "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMmhCV1Z1N0RDclZNc2xRendVZHk3V2RKak9JV3l1NWxoUzJUWTNxZXVXLUZkT2JtVUdDRWY0TmpMOF9vR0szOEhzcG9QZFZNWUFWeXFGWG9FN3F2VGFYMjBEYm5xN0VXS3RCaU5EVnRrMXJuU1U4XzN3X3ZITmJ5RWJEaldoUnVYemRBQzhGNEY?oc=5"
-            },
-            {
-                "title": "QQQ vs. QQQM: Same Index, So Which One Should You Actually Buy? - 24/7 Wall St.",
-                "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONERuNDdWTHBoU2IzZlVVZXE5NUtzTTF1UGZkOXdPcFhGR3lnUmllMjN0V0piRzhJckZhdC1RSmMwU3NVNU5vNExpMGkyekJlNVA1dDJBNjdiaGtYRW1OSFVyTmZ2aGU5OG5BNmFWLVpIQjJnVjN2cHVyR0d5ZzIxRXJZNThFUkxKY1YxajZHeG9xRVlmNTVLRG95Z0hORXhqVkZtaHJR?oc=5"
-            },
-            {
-                "title": "Better Growth ETF: QQQM vs. VGT - AOL.com",
-                "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE42MVZkTEE2UVpRdmg3cGQtWWpacHo0NEFZbFdSYjhDU1M0dlkzNDlWNVZUMjJ6TTFTZGdnNi1GX3ZDczJYb055SkZORzJ1Qy1YQzFKN2xRZ21IYnhUdHZKMFNPSGJWSFZEbDBvTDYtUnM0MGhPUmhjSw?oc=5"
-            },
-            {
-                "title": "Family Legacy Financial Solutions, LLC's Invesco NASDAQ 100 ETF(QQQM) Holding History - GuruFocus",
-                "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRXQ1WGNrek9lRGViQjhlRHZKaDlEcEJRVTlJX25PRVZOcGROSXdldWpwWkZZSkNUaUNGOEROeWM4WkhFa3hYYU5zMkNTRnMzUXkzOWd5SUEybUZnSTdHZThBN0lJUk1ILWRVRlp3VGE5eURlckkxS05QZVlTS0lfQXducUpLM0xDWEEzLVNlQ0JQNExTd2Nz?oc=5"
-            }
-        ],
-        "SCHD": [
-            {
-                "title": "SCHD vs. VYM: Which Dividend ETF Builds a Better Income Stream? - Yahoo Finance",
-                "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWDREUHdoSDhIVGx6eEViMTNpQ1lveVBXWUNGZ2VGWWlNc0Y3NmcxWHZERGp4Z1VpNGt4MzRSQmJVbW1EMGZ2Ujk1S0xEWlhuWk5wMUN3UVE4S1FrOGRKbi1IQmhjbFNjMzNOaDQzQktNSU9meFIzTGNJTHZUblRyZU40NlVBMzFBMUY5N1d3S28tV3M?oc=5"
-            },
-            {
-                "title": "SCHD: The Dividend ETF That Delivers - AOL.com",
-                "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5HbmhWNHo2TzRIcTVZMGJzUXA2UEoxUWs5Mlh1OXhPRmJDdnlqdnJSd1VsTVhoUXlhVkNfR1VmX1BZSzBwRVhsTFVzTzBvd0F3YkVrUllfWXJ1dGVfSmJNWklFSFpFRWo4dXNQQnpEN3EtdExFc3hLMW1B?oc=5"
-            },
-            {
-                "title": "SCHD vs. VYM: Which Dividend ETF Builds a Better Income Stream? - 24/7 Wall St.",
-                "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWGxPSmV2Q3ZldFhXM0RVQXlwMThXWTVVUmpfM09QeEdEZFVTVE84VmNidXUzeTBjY0pwVlF0Y3BpNm9TajdoTnlPV0gzcmI3aGhLMHNSRHk4R3B4QWZQakZEVmx6UnE0RWF0STFWamtldzJSdTEwYkVCNnhucTEwNEZGZHhlWGgwZjR6NTlDVDdkVmMtd2xPd0owZl9qZWFrMEF4RElfWQ?oc=5"
-            },
-            {
-                "title": "HDV: Less Stable Than SCHD With No Dividend Or Quality Advantage (NYSEARCA:HDV) - Seeking Alpha",
-                "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObm96eFVGeUJnNF9aaXFIOGNicFotcmlfV1ZQTzRwbHZSWlBSLVJUbmw4ZkdwR2JvbjBtSE9fcVV4dVNaekJiT3BoMlBTekJNY3hCT3ZIbDhYdEpwQjllWUtjMG14b2M0NDFoXzNsQnBqWTllNzVBY2JKNUpGa2VaTW5uWjZ1MVZGSUlJS3d5cUpmSlV1SGNETnR4d1VpS2hsSnZkT0Q2MA?oc=5"
-            }
-        ],
-        "TSLA": [
-            {
-                "title": "TSLA Stock Sinks As SpaceX IPO Nears — Analyst Says Investors Are Selling Tesla To Catch A Day-1 Pop In Next Musk Trade - Yahoo Finance",
-                "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSEtXbHhndWxYM3FWYzAtdEZjNS1WMXJhTkhiYnBLMkdIVDFuSEtsN3FXU0EyZm9VUnpEemg1Q0g2dVZnQS1zakc3Mm5yek5WRjZKaGVha1JXNlItY2R3ZHcwOWhRSkJIWFhYZFQ1Q1BzbzZSOXhHbHl0dWJlaGxaX3Nxa1dacWNZSzR0WmdYaklBR3ZNOGpj?oc=5"
-            },
-            {
-                "title": "3 Reasons Tesla Stock Is So Volatile This Week - Barron's",
-                "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBBdm9zMTBkY3J4VlJwbUJERTJzQ3AyNF8wV1ZMV0xtbUlHMTZrZlpET2xTN01lV2pTa3ZRekJSS0RCNG9QNm95UUVvM3pHQjNNSVVycXhfMTBLUFJEdExsd1RKRks1MGhva1EtR3FPbzhwUWs?oc=5"
-            },
-            {
-                "title": "TSLA Stock On Track For Worst Week In A Year On Fresh Roadster Delay As Musk’s April Promise Fades - Stocktwits",
-                "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTXpzV2drdVRITXRXaFBEdGsxdFdTR2FSazBFMDJKWUJ4MF8tWWNZQnEwT2tpYXh5cmFEOUZGemN2dUV0ZTFjbjZHNDdXZ005bXV6UlVkVzNJc05Yc0t0Ri0ySzBCOXItVTI5eGZUTFRMTm10RXlLMkhFZWpnbjNvSkVoSnN0V09XaV9ucVNfeWdLWkIzQXNHWDJBZXRsNktwcl80bE40a3g2aS1ibEZwMEJodmlqYTd4UmFGdldSNTdOeElValkwWjU4YWpWNnY0YnQ4VzE1aHRzaTJIMUZqX29CaktiQUxYU2NyZFdoWQ?oc=5"
-            },
-            {
-                "title": "The Number That Complicates The Tesla Stock Story - Trefis",
-                "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSDFNVm83YkdTZHBsZER0bkF5eXVEMWZFcmQyTVpLalFDbzE2N01PRzVjT2ZsQ1lZWlJZdmhKa2kyeVRqT0ZxUWlCeFJMZGtNZ0NVcXJPZzRjY1ZLYkdUY01Jc05sV2tRWTA5Y05ZNWxETHlmaFFlQUV2R1hxSWxLMWVoNnFtTEZSQ25FdWtwTzNYYzB6SWQtNktRUTB5MlgzMVFfa0Nrc0tXUXQ4ODF5NVpzclBXcnZKQi1R?oc=5"
             }
         ]
     }
