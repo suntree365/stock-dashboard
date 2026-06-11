@@ -4,12 +4,6 @@ import xml.etree.ElementTree as ET
 import urllib.request
 import yfinance as yf
 from datetime import datetime
-import os
-import json
-import xml.etree.ElementTree as ET
-import urllib.request
-import yfinance as yf
-from datetime import datetime
 
 def get_macro_data():
     # 에러율을 낮추기 위해 가장 대중적이고 안정적인 야후 금융 티커로 재세팅
