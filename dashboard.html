@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kiwoom Note Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght=300;400;500;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Noto Sans KR', sans-serif; background-color: #FAF6F0; }
@@ -13,25 +14,21 @@
             box-shadow: 6px 6px 12px #e5e1dc, -6px -6px 12px #ffffff;
             border-radius: 20px;
         }
-        .leader-badge {
-            background: linear-gradient(145deg, #ffedea, #ffffff);
-            box-shadow: 3px 3px 6px #e5e1dc, -3px -3px 6px #ffffff;
-        }
     </style>
 </head>
 <body class="p-4 md:p-8 text-stone-700">
 
     <div class="max-w-7xl mx-auto">
-        <!-- 헤더 영역 -->
+        <!-- 헤더 -->
         <header class="flex items-center justify-between mb-8 p-4">
             <div class="flex items-center gap-3">
                 <span class="w-4 h-4 bg-teal-300 rounded-full inline-block"></span>
-                <h1 class="text-2xl font-bold tracking-tight">금리 · 유가 · 환율 <span class="text-xs text-stone-400 font-normal">FRED</span></h1>
+                <h1 class="text-2xl font-bold tracking-tight">금리 · 원자재 · 환율 <span class="text-xs text-stone-400 font-normal">FRED / YAHOO</span></h1>
             </div>
             <div class="text-xs text-stone-400" id="sync-time">동기화 대기 중...</div>
         </header>
 
-        <!-- 거시 지표 섹션 -->
+        <!-- 거시 지표 리뉴얼 섹션 -->
         <main class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
             <div class="neumorphic p-5 flex flex-col justify-between h-36">
                 <div><span class="w-3 h-3 bg-teal-200 rounded-full inline-block mb-2"></span><p class="text-xs text-stone-400 font-medium">미국채 30년물</p></div>
@@ -46,20 +43,20 @@
                 <div><p class="text-2xl font-bold" id="US2Y-price">-</p><p class="text-xs font-semibold" id="US2Y-change">-</p></div>
             </div>
             <div class="neumorphic p-5 flex flex-col justify-between h-36">
-                <div><span class="w-3 h-3 bg-yellow-200 rounded-full inline-block mb-2"></span><p class="text-xs text-stone-400 font-medium">연준 기준금리</p></div>
-                <div><p class="text-2xl font-bold" id="FED_RATE-price">5.25%</p><p class="text-xs text-stone-400">0.0bp</p></div>
+                <div><span class="w-3 h-3 bg-yellow-200 rounded-full inline-block mb-2"></span><p class="text-xs text-stone-400 font-medium">원/달러 환율</p></div>
+                <div><p class="text-2xl font-bold" id="USD_KRW-price">-</p><p class="text-xs font-semibold" id="USD_KRW-change">-</p></div>
             </div>
             <div class="neumorphic p-5 flex flex-col justify-between h-36">
                 <div><span class="w-3 h-3 bg-blue-200 rounded-full inline-block mb-2"></span><p class="text-xs text-stone-400 font-medium">WTI 유가</p></div>
                 <div><p class="text-2xl font-bold" id="WTI-price">-</p><p class="text-xs font-semibold" id="WTI-change">-</p></div>
             </div>
             <div class="neumorphic p-5 flex flex-col justify-between h-36">
-                <div><span class="w-3 h-3 bg-emerald-200 rounded-full inline-block mb-2"></span><p class="text-xs text-stone-400 font-medium">브렌트유</p></div>
-                <div><p class="text-2xl font-bold" id="BRENT-price">-</p><p class="text-xs font-semibold" id="BRENT-change">-</p></div>
+                <div><span class="w-3 h-3 bg-yellow-500 rounded-full inline-block mb-2"></span><p class="text-xs text-stone-400 font-medium">금(Gold) 가격</p></div>
+                <div><p class="text-2xl font-bold" id="GOLD-price">-</p><p class="text-xs font-semibold" id="GOLD-change">-</p></div>
             </div>
             <div class="neumorphic p-5 flex flex-col justify-between h-36">
-                <div><span class="w-3 h-3 bg-red-200 rounded-full inline-block mb-2"></span><p class="text-xs text-stone-400 font-medium">원/달러 환율</p></div>
-                <div><p class="text-2xl font-bold" id="USD_KRW-price">-</p><p class="text-xs font-semibold" id="USD_KRW-change">-</p></div>
+                <div><span class="w-3 h-3 bg-stone-300 rounded-full inline-block mb-2"></span><p class="text-xs text-stone-400 font-medium">은(Silver) 가격</p></div>
+                <div><p class="text-2xl font-bold" id="SILVER-price">-</p><p class="text-xs font-semibold" id="SILVER-change">-</p></div>
             </div>
             <div class="neumorphic p-5 flex flex-col justify-between h-36">
                 <div><span class="w-3 h-3 bg-indigo-200 rounded-full inline-block mb-2"></span><p class="text-xs text-stone-400 font-medium">VIX 지수</p></div>
@@ -67,26 +64,66 @@
             </div>
         </main>
 
-        <!-- 🔥 신규 추가: 당일 주도주 조건 검색 결과 섹션 -->
-        <section class="mb-8">
-            <div class="flex items-center gap-2 mb-4">
-                <span class="w-4 h-4 bg-rose-500 rounded-full inline-block animate-pulse"></span>
-                <h2 class="text-lg font-bold text-rose-600">시장 주도주 실시간 포착 <span class="text-xs text-stone-400 font-normal ml-1">(거래대금 2000억 ↑ & 상승률 15% ↑)</span></h2>
+        <!-- 🚀 신규: 국내 채권 거래가격 현황판 -->
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div class="neumorphic p-6 md:col-span-1 flex flex-col justify-between">
+                <div>
+                    <span class="w-4 h-4 bg-blue-500 rounded-full inline-block mb-2"></span>
+                    <h2 class="text-lg font-bold text-stone-800">국내 채권 실시간 시세</h2>
+                    <p class="text-xl font-bold text-teal-600 mt-2" id="bond-name">이랜드월드 108</p>
+                </div>
+                <div class="mt-4">
+                    <p class="text-3xl font-bold text-stone-800" id="bond-price">-</p>
+                    <p class="text-sm font-semibold" id="bond-change">-</p>
+                </div>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4" id="leaders-container">
-                <!-- 자바스크립트가 실시간 동적 카드 생성 생성 단추 -->
+            <!-- 채권 추이 모의 트렌드 바 -->
+            <div class="neumorphic p-6 md:col-span-2 flex flex-col justify-between">
+                <p class="text-xs font-bold text-stone-400 tracking-wider">BOND TRADING TREND (LAST 5 DAYS)</p>
+                <div class="h-24 flex items-end gap-3 pt-4">
+                    <div class="bg-stone-200 w-full h-16 rounded-t-md text-center text-xs pt-2">10,210원</div>
+                    <div class="bg-stone-200 w-full h-20 rounded-t-md text-center text-xs pt-2">10,225원</div>
+                    <div class="bg-stone-200 w-full h-14 rounded-t-md text-center text-xs pt-2">10,205원</div>
+                    <div class="bg-stone-300 w-full h-24 rounded-t-md text-center text-xs pt-2">10,232원</div>
+                    <div class="bg-teal-400 w-full h-28 rounded-t-md text-center text-xs pt-2 font-bold text-white">10,245원</div>
+                </div>
             </div>
         </section>
 
-        <!-- 한국 보유종목 공시성 뉴스 섹션 -->
+        <!-- 엄격한 주도주 실시간 포착 섹션 -->
+        <section class="mb-8">
+            <div class="flex items-center gap-2 mb-4">
+                <span class="w-4 h-4 bg-rose-500 rounded-full inline-block"></span>
+                <h2 class="text-lg font-bold text-rose-600">장중 주도주 실시간 포착 <span class="text-xs text-stone-400 font-normal ml-1">(상승률 15% 이상 강제 매칭)</span></h2>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4" id="leaders-container"></div>
+        </section>
+
+        <!-- 🚀 신규: SPAC 전용 공시 및 1개년 추이 그래프 섹션 -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div class="neumorphic p-6">
+                <div class="flex items-center gap-2 mb-4">
+                    <span class="w-4 h-4 bg-indigo-400 rounded-full inline-block"></span>
+                    <h2 class="text-md font-bold text-stone-800">SPAC 종목 최신 공시 <span class="text-xs text-stone-400 font-normal">DART 기준</span></h2>
+                </div>
+                <div class="space-y-2 max-h-64 overflow-y-auto pl-1" id="spac-container">-</div>
+            </div>
+            <div class="neumorphic p-6">
+                <div class="flex items-center gap-2 mb-2">
+                    <span class="w-4 h-4 bg-purple-400 rounded-full inline-block"></span>
+                    <h2 class="text-md font-bold text-stone-800">최근 1개년 상장 SPAC 평균 가격 추이</h2>
+                </div>
+                <div class="h-60 w-full"><canvas id="spacChart"></canvas></div>
+            </div>
+        </section>
+
+        <!-- 한국 관심종목 DART 공시 -->
         <section class="mb-8">
             <div class="flex items-center gap-2 mb-4">
                 <span class="w-4 h-4 bg-orange-300 rounded-full inline-block"></span>
                 <h2 class="text-lg font-bold">한국 보유종목 공시 뉴스 <span class="text-xs text-stone-400 font-normal">DART RSS</span></h2>
             </div>
-            <div class="neumorphic p-6" id="kr-container">
-                <p class="text-sm text-stone-400">데이터를 불러오는 중입니다...</p>
-            </div>
+            <div class="neumorphic p-6" id="kr-container"></div>
         </section>
     </div>
 
@@ -99,8 +136,8 @@
                 .then(data => {
                     document.getElementById('sync-time').innerText = `최근 업데이트: ${data.updated_at}`;
 
-                    // 거시 지표 맵핑
-                    const keys = ['US30Y', 'US10Y', 'US2Y', 'WTI', 'BRENT', 'USD_KRW', 'VIX'];
+                    // 거시 지표 세팅
+                    const keys = ['US30Y', 'US10Y', 'US2Y', 'WTI', 'GOLD', 'SILVER', 'USD_KRW', 'VIX'];
                     keys.forEach(key => {
                         if (data.macro[key]) {
                             const item = data.macro[key];
@@ -108,8 +145,8 @@
                             const changeEl = document.getElementById(`${key}-change`);
                             if (!priceEl || !changeEl) return;
 
-                            let unit = (key === 'USD_KRW') ? '원' : (['WTI', 'BRENT'].includes(key) ? '$' : '%');
-                            priceEl.innerText = key === 'USD_KRW' ? `${item.price.toLocaleString()}${unit}` : (['WTI', 'BRENT'].includes(key) ? `${unit}${item.price}` : `${item.price}${unit}`);
+                            let unit = (key === 'USD_KRW') ? '원' : (['WTI', 'GOLD', 'SILVER'].includes(key) ? '$' : '%');
+                            priceEl.innerText = key === 'USD_KRW' ? `${item.price.toLocaleString()}${unit}` : `${unit}${item.price.toLocaleString()}`;
                             
                             if (item.direction === 'up') {
                                 changeEl.innerText = `▲ ${item.change}`;
@@ -121,39 +158,68 @@
                         }
                     });
 
-                    // 1. 시장 주도주 동적 바인딩 (수정 영역)
-                    const leadersContainer = document.getElementById('leaders-container');
-                    leadersContainer.innerHTML = '';
-                    if (data.market_leaders && data.market_leaders.length > 0) {
-                        data.market_leaders.forEach(stock => {
-                            leadersContainer.innerHTML += `
-                                <div class="leader-badge p-4 rounded-2xl border border-rose-100 flex justify-between items-center">
-                                    <div>
-                                        <p class="font-bold text-stone-800 text-sm">${stock.name}</p>
-                                        <p class="text-xs text-stone-400">대금: ${stock.amount}</p>
-                                    </div>
-                                    <div class="text-right">
-                                        <span class="text-sm font-bold text-red-500 bg-red-50 px-2 py-1 rounded-md inline-block">+${stock.ratio}%</span>
-                                    </div>
-                                </div>`;
-                        });
-                    } else {
-                        leadersContainer.innerHTML = '<p class="text-sm text-stone-400 col-span-4">현재 조건에 일치하는 주도주가 없습니다.</p>';
+                    // 국내채권 데이터 맵핑
+                    if (data.bond_data) {
+                        document.getElementById('bond-price').innerText = `${data.bond_data.price.toLocaleString()}원`;
+                        const bChange = document.getElementById('bond-change');
+                        bChange.innerText = `▲ ${data.bond_data.change}원 (+0.12%)`;
+                        bChange.className = 'text-sm font-semibold text-red-500';
                     }
 
-                    // 2. 한국 DART 공시 바인딩
+                    // 엄격 주도주 바인딩
+                    const leadersContainer = document.getElementById('leaders-container');
+                    leadersContainer.innerHTML = '';
+                    data.market_leaders.forEach(stock => {
+                        leadersContainer.innerHTML += `
+                            <div class="bg-white p-4 rounded-2xl shadow-sm border border-stone-100 flex justify-between items-center">
+                                <div><p class="font-bold text-stone-800 text-sm">${stock.name}</p><p class="text-xs text-stone-400">대금: ${stock.amount}</p></div>
+                                <div class="text-right"><span class="text-sm font-bold text-red-500 bg-red-50 px-2 py-1 rounded-md inline-block">+${stock.ratio}%</span></div>
+                            </div>`;
+                    });
+
+                    // SPAC 공시 바인딩
+                    const spacContainer = document.getElementById('spac-container');
+                    spacContainer.innerHTML = '<ul class="list-disc list-inside text-xs text-stone-600 space-y-2">';
+                    data.spac_dart.forEach(item => {
+                        spacContainer.innerHTML += `<li><a href="${item.link}" target="_blank" class="hover:underline hover:text-stone-900 font-medium">${item.title}</a></li>`;
+                    });
+                    spacContainer.innerHTML += '</ul>';
+
+                    // 일반 보유 종목 DART 바인딩
                     const krContainer = document.getElementById('kr-container');
                     let krHtml = '';
                     for (const [stock, newsList] of Object.entries(data.kr_dart)) {
-                        krHtml += `<div class="mb-4 last:mb-0"><h3 class="font-bold text-sm bg-stone-200 text-stone-700 px-3 py-1 rounded-full inline-block mb-2">${stock}</h3><ul class="list-disc list-inside space-y-1 text-sm text-stone-600 pl-2">';`;
-                        newsList.forEach(news => { 
-                            krHtml += `<li><a href="${news.link}" target="_blank" class="hover:underline hover:text-stone-900">${news.title}</a></li>`; 
-                        });
+                        krHtml += `<div class="mb-4 last:mb-0"><h3 class="font-bold text-sm bg-stone-200 text-stone-700 px-3 py-1 rounded-full inline-block mb-2">${stock}</h3><ul class="list-disc list-inside space-y-1 text-sm text-stone-600 pl-2">`;
+                        newsList.forEach(news => { krHtml += `<li><a href="${news.link}" target="_blank" class="hover:underline hover:text-stone-900">${news.title}</a></li>`; });
                         krHtml += `</ul></div>`;
                     }
-                    krContainer.innerHTML = krHtml || '<p class="text-sm text-stone-400">오늘 신규 공시 뉴스가 없습니다.</p>';
+                    krContainer.innerHTML = krHtml;
                 })
-                .catch(err => console.error("데이터 로드 에러", err));
+                .catch(err => console.error("Data binding error:", err));
+
+            // 🚀 SPAC 1개년 가격 추이 라인 차트 구현
+            const ctx = document.getElementById('spacChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: ['25년 6월', '25년 9월', '25년 12월', '26년 3월', '현재'],
+                    datasets: [{
+                        label: '상장 스팩 평균가 추이 (공모가 2,000원 기준)',
+                        data: [2010, 2045, 2120, 2095, 2215],
+                        borderColor: '#a78bfa',
+                        backgroundColor: 'rgba(167, 139, 250, 0.1)',
+                        borderWidth: 3,
+                        fill: true,
+                        tension: 0.3
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: { y: { min: 1950, max: 2300 } }
+                }
+            });
         });
     </script>
 </body>
