@@ -1,19 +1,39 @@
 {
-    "updated_at": "2026-06-11 08:45:48",
+    "updated_at": "2026-06-11 08:55:24",
     "macro": {
+        "US30Y": {
+            "price": 5.01,
+            "change": -0.01,
+            "direction": "down"
+        },
+        "US10Y": {
+            "price": 4.53,
+            "change": -0.02,
+            "direction": "down"
+        },
+        "US2Y": {
+            "price": 3.63,
+            "change": 0.01,
+            "direction": "up"
+        },
         "WTI": {
-            "price": 89.02,
-            "change": -1.01,
+            "price": 88.87,
+            "change": -1.16,
             "direction": "down"
         },
         "BRENT": {
-            "price": 91.89,
-            "change": -1.21,
+            "price": 91.84,
+            "change": -1.26,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 153.01,
-            "change": 0.43,
+            "price": 153.05,
+            "change": 0.47,
+            "direction": "up"
+        },
+        "VIX": {
+            "price": 20.59,
+            "change": 0.72,
             "direction": "up"
         }
     },
@@ -42,8 +62,8 @@
                 "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5pYS1GMll2Ymh3cWxWdDdsXzN0MUliNXd4R3Q4UHJjQXktMS1WUlM5SDN0UGtyVDFYeWl0ajFUeFhGbW9Cb0dsSWZYVQ?oc=5"
             },
             {
-                "title": "현대차, 복정 R&D센터에 2.5조 출자키로 - 이데일리",
-                "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYnBvMl84cUVYTERRdnhRR0FjR0xKd3dWeVhkTHA3LVhEakU4OFI5MzZocjdwT2ZBMGwxNkc4cGowc18zb3NMaWNuRzBCX1MtVGVEanNqNVpvcHdOMURWRHIzakdpNlpkLXpfWWxkcl8xRlRFeWZnRmRvSm9ZZW94WQ?oc=5"
+                "title": "현대차 인도 첸나이 공장, 협력사 화재 후 운영 재개…22일 정상화 목표 - 아주경제",
+                "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBNbTVObnBLbVZseUx1Z3NkLTlXVXNsekg4dzRkbHpBQkNPYmxzVE13UnRLaWJLUUFSZHZxbEhJWHk0QWJ6TTE4TFhBajV3cUtHSEQzNWY5QWzSAVhBVV95cUxQTW01Tm5wS21WbHlMdWdzZC05V1VzbHpIOHc0ZGx6QUJDT2Jsc1RNd1J0S2liS1FBUmR2cWxISVh5NEFiek0xOExYQWo1d3FLR0hEMzVmOUFs?oc=5"
             }
         ],
         "POSCO홀딩스": [
@@ -102,10 +122,6 @@
         ],
         "AMZN": [
             {
-                "title": "AMZN Stock Jumps Overnight: AWS Sticks With Nvidia Bet Even Amid Surging Demand For In-House Chips - Stocktwits",
-                "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbmFSVEhRamtlS24wazFWMWd1VVNTYUhlVHpCeF9OUXhLWmktOUxQUURXZ3AzcFE4bFpYVFNqOHd0Ykhwb0ZHU2JtbGlpbEl4b24tMHp0OFNRMXE0Mlg4enN6Q0pJSktaMDI0aWpRVkJUTlJ0TllXZW5jRHNKVXpMQ3pFNnJDdVlia2NpMmVleERXcDN6Z01vTUJHbDBrSVZPckt6bjMtTU1lQW41bUtEbWpadVlGeFI4VlEtQXlBX0x3N2NuVjVsb1JmQm9sRzVkUWdVZ25B?oc=5"
-            },
-            {
                 "title": "Where Will Amazon Stock Be in 3 Years? - The Motley Fool",
                 "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWlhfaC1ZVGJvelhRRGxLc3RER2VsTmtRU19MUU80WGprdHR4UEhaWU5EY1FMZTJYczFvTFBwb0pPcGIzam9EUUlUU0lwM20xVHRZNEEyUTNIajdCdVFrUFdFR0YzaXBOakQ5czRrMzRIdGZYMDRvby11WFRpZ1pkclRMalZJcnc?oc=5"
             },
@@ -116,6 +132,10 @@
             {
                 "title": "5 Catalysts to Monitor Over In The Next 2 Quarters For AMZN Stock - Trefis",
                 "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQS1ZU2lWVWhhLUE2Rnd1cHMxa01uR2FRNXRKQnRoTUJCYVJKcUhMeDFZWXh2bWxuN3RNQS1pOW9mVlZJQnUzN2g1MThDbUVzVG8zSDBxZDF1QkEwUjVnbThFakYzZlA4Q0k0SXh4UzdSa3JfT2JrNkd3cF9mU0QtYUZ0VWMyMGVSUnpsOWh3N3NRY0NhamdJT1c2Z1J0X3NPTmxYRXlocHpxTl9NbDNHNk96T2w3bFFRWTlNbXVmRmRKc3BveEdz?oc=5"
+            },
+            {
+                "title": "Amazon.com Inc. (AMZN) Buy Rating Reiterated by BofA Securities - Yahoo Finance",
+                "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNX1hMbTlreFM0WEtpbVNhdnRvNmVudG9KUVUtYWxobWRNeEhDcTF4bGJoZ0FWbzVmckxEOGV6RkVRR3F4bzExMVRrWDhRLWdRb2tiSml3NnlhcXNnNTRfNkVYUGFZT19sWjVpVEFYZXVqc1lMX0VPZmdiUmJDSFd2Q1VRMWNPcnVKa1JFTkhkZGVrQQ?oc=5"
             }
         ],
         "NVDA": [
@@ -132,11 +152,15 @@
                 "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZ0sxQXFITktEdFBTMFdPbjlrSnBQQm80UGJzRC0zTEJneHUyUXllNkd2aTZPWWx0ZU8wSk1EelFjOWE0ZDRkX3habFdmNk5welRzXzF0Tjd0dGtiUXB2emhLc0ZSUW02d0tiNVJUTEd5RkJyQndjVnpGc0xwNk44SA?oc=5"
             },
             {
-                "title": "NVDA Stock Slips After Hours As Warren Reportedly Calls Huang To Testify On China Chip Sales - Stocktwits",
-                "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONkVfWGo3QkU2eElrdmlnLVNnczVWNDhzNVFDTG01ZmdEWW5PMWpaWFFDVUt4ZGZ5NDFxQkVFOXZjY2NlOWRzQm81ZVZkalJjZFNYS3ZKcTdtWlpKeTBtakR2QmRzQVI2V0ZUS1FvUHFscUItbi11ZU5MRGI0Y2xXbUdsa2NITm5DTXkteGl1eHF3R21Nby1zbnNfMDhrMlNVZ3ZsNWwwOXpZdzhFMDc2enRFMm02dGxHZ0dKNU5EUjRJZTFXWl9wUlRpblhXZGN6R1cydFZkN2ZaVXhWZ2dlUmtVVW15MDVPTEdwbw?oc=5"
+                "title": "Nvidia (NVDA) Stock Quotes, Company News And Chart Analysis - Investor's Business Daily",
+                "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNX2ZhLWp6SHRtd2ZSclFXaEZlbHM2Tkd5c0tVWUp4dWRDVzU4eWkyMTU0a3Q1bWtCLWxkQzFqbVkza0R1bXBhZV9JaHEtOTBDRW40M3VpY3czQldHRzhwbVQxQXJmR1gxV0lpNEJSX09PdlZTdTczLXpZOFZ6LTBPYXgyamdHa0gyNTQ1ZTlhVVQ?oc=5"
             }
         ],
         "TSLA": [
+            {
+                "title": "TSLA Stock Sinks As SpaceX IPO Nears — Analyst Says Investors Are Selling Tesla To Catch A Day-1 Pop In Next Musk Trade - Yahoo Finance",
+                "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSEtXbHhndWxYM3FWYzAtdEZjNS1WMXJhTkhiYnBLMkdIVDFuSEtsN3FXU0EyZm9VUnpEemg1Q0g2dVZnQS1zakc3Mm5yek5WRjZKaGVha1JXNlItY2R3ZHcwOWhRSkJIWFhYZFQ1Q1BzbzZSOXhHbHl0dWJlaGxaX3Nxa1dacWNZSzR0WmdYaklBR3ZNOGpj?oc=5"
+            },
             {
                 "title": "3 Reasons Tesla Stock Is So Volatile This Week - Barron's",
                 "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBBdm9zMTBkY3J4VlJwbUJERTJzQ3AyNF8wV1ZMV0xtbUlHMTZrZlpET2xTN01lV2pTa3ZRekJSS0RCNG9QNm95UUVvM3pHQjNNSVVycXhfMTBLUFJEdExsd1RKRks1MGhva1EtR3FPbzhwUWs?oc=5"
@@ -144,10 +168,6 @@
             {
                 "title": "TSLA Stock Sinks As SpaceX IPO Nears — Analyst Says Investors Are Selling Tesla To Catch A Day-1 Pop In Next Musk Trade - Stocktwits",
                 "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOWhTS3VHemxZNE92eHVGb0lhLW56UE5PaWJBblZkVzJCX21LR0hJZEN3bGpVRHoyQWRrUW9YekJGeGNmR0FncU5pUmEzWHBLWkxOVUNQRWhVcXNjR25MRkhGY21nSlQ2SmRxWWRaZFVKdWRSVU9HdU1NM25NUUtrOU1ZazNwMWh4dnc4TjIwS1hvQUgxOG5CanI2S1ptZGFFWTRFODlBVTg2WWtPSkRmbzJMS1pJRkF2VTNn?oc=5"
-            },
-            {
-                "title": "TSLA Stock Watches SpaceX IPO While Cheapest Cybertruck Hits Driveways After Long Wait - Yahoo Finance",
-                "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc1draFNUeWkycWd4a01udVlzOXlxcWY1RG1hUE5BZnpoYUlvMjlxMjV3Wjc2VXFrSldveTNUb0xMMzY3NTU2eEt3dnFBUmd0S0w1Q0t2VXBPenFaZ0U1ZFZXX21ZQ3lESzNPMTJvb0tfbTZ3a0JRX3RGMkxoSnlFcTJHX3NzckxkZ0R4UjQwZHNFemRYN2JQT1lR?oc=5"
             },
             {
                 "title": "Prediction: Tesla Stock Will Hit $500 on This Date - 24/7 Wall St.",
