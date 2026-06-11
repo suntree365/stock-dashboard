@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-06-11 10:09:05",
+    "updated_at": "2026-06-11 10:17:45",
     "macro": {
         "US30Y": {
             "price": 5.03,
@@ -17,28 +17,28 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 89.19,
-            "change": -0.84,
+            "price": 89.31,
+            "change": -0.72,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4111.4,
-            "change": 3.2,
+            "price": 4114.3,
+            "change": 6.1,
             "direction": "up"
         },
         "SILVER": {
-            "price": 64.17,
-            "change": -0.43,
+            "price": 64.18,
+            "change": -0.42,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1530.57,
-            "change": 4.76,
-            "direction": "up"
+            "price": 1525.81,
+            "change": -3.07,
+            "direction": "down"
         },
         "VIX": {
-            "price": 20.65,
-            "change": -1.57,
+            "price": 20.62,
+            "change": -1.6,
             "direction": "down"
         },
         "FED_RATE": {
@@ -49,51 +49,61 @@
     },
     "market_leaders": [
         {
-            "name": "신성델타테크",
-            "ratio": 18.4,
-            "amount": "2,840억"
+            "name": "주성엔지니어링",
+            "ratio": 23.37,
+            "amount": "16,723억"
         },
         {
-            "name": "남성",
-            "ratio": 15.2,
-            "amount": "2,100억"
+            "name": "원익IPS",
+            "ratio": 20.82,
+            "amount": "4,795억"
+        },
+        {
+            "name": "심텍",
+            "ratio": 21.74,
+            "amount": "3,107억"
+        },
+        {
+            "name": "현대무벡스",
+            "ratio": 15.25,
+            "amount": "2,935억"
         }
     ],
     "spac_ipo_list": [
         {
+            "name": "메리츠제14호스팩",
+            "date": "2026-06-10",
+            "underwriter": "메리츠증권",
+            "sponsor": "메리츠자산",
+            "size": "100억"
+        },
+        {
+            "name": "미래에셋스팩9호",
+            "date": "2026-05-14",
+            "underwriter": "미래에셋증권",
+            "sponsor": "미래에셋자산",
+            "size": "135억"
+        },
+        {
+            "name": "BNK제3호스팩",
+            "date": "2026-04-02",
+            "underwriter": "BNK투자증권",
+            "sponsor": "BNK자산운용",
+            "size": "80억"
+        },
+        {
             "name": "하나스팩34호",
             "date": "2025-07-18",
             "underwriter": "하나증권",
-            "sponsor": "로그인베스트먼트",
+            "sponsor": "로그인베스트",
             "size": "140억"
-        },
-        {
-            "name": "미래에셋스팩7호",
-            "date": "2025-09-22",
-            "underwriter": "미래에셋증권",
-            "sponsor": "미래에셋자산운용",
-            "size": "110억"
-        },
-        {
-            "name": "신한제15호스팩",
-            "date": "2025-11-04",
-            "underwriter": "신한투자증권",
-            "sponsor": "신한자산운용",
-            "size": "90억"
         },
         {
             "name": "한국스팩16호",
             "date": "2026-02-12",
             "underwriter": "한국투자증권",
-            "sponsor": "코리아에셋투자",
+            "sponsor": "코리아에셋",
             "size": "125억"
-        },
-        {
-            "name": "KB제30호스팩",
-            "date": "2026-04-29",
-            "underwriter": "KB증권",
-            "sponsor": "KB인베스트먼트",
-            "size": "100억"
         }
     ],
     "bond_data": {
