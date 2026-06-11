@@ -150,7 +150,16 @@ if __name__ == "__main__":
     bond, kr_dart, spac_dart = get_bond_and_spac_data(kr_stocks)
     
     combined_data = {
-        "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        # 상단에 import datetime 외에 timedelta를 추가하여 한국 시간 계산
+from datetime import datetime, timedelta
+
+# ... (기존 코드 생략) ...
+
+combined_data = {
+    # 기존 코드 대신 9시간을 더한 한국 시간으로 포맷 확정
+    "updated_at": (datetime.utcnow() + timedelta(hours=9)).strftime("%Y-%m-%d %H:%M:%S"),
+    "macro": get_macro_data(),
+    # ... 후략
         "macro": get_macro_data(),
         "market_leaders": get_market_leaders(), # 100% 팩트 기반 당일 실시간 데이터 스캔 결과 반영
         "spac_ipo_list": get_recent_spac_ipo_list(),
