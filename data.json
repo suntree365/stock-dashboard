@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-06-11 10:17:45",
+    "updated_at": "2026-06-11 20:17:51",
     "macro": {
         "US30Y": {
             "price": 5.03,
@@ -17,28 +17,28 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 89.31,
-            "change": -0.72,
+            "price": 89.06,
+            "change": -0.97,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4114.3,
-            "change": 6.1,
+            "price": 4112.9,
+            "change": 4.7,
             "direction": "up"
         },
         "SILVER": {
-            "price": 64.18,
-            "change": -0.42,
+            "price": 64.07,
+            "change": -0.53,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1525.81,
-            "change": -3.07,
-            "direction": "down"
+            "price": 1530.48,
+            "change": 4.67,
+            "direction": "up"
         },
         "VIX": {
-            "price": 20.62,
-            "change": -1.6,
+            "price": 20.91,
+            "change": -1.31,
             "direction": "down"
         },
         "FED_RATE": {
@@ -49,24 +49,14 @@
     },
     "market_leaders": [
         {
-            "name": "주성엔지니어링",
-            "ratio": 23.37,
-            "amount": "16,723억"
+            "name": "신성델타테크",
+            "ratio": 18.4,
+            "amount": "2,840억"
         },
         {
-            "name": "원익IPS",
-            "ratio": 20.82,
-            "amount": "4,795억"
-        },
-        {
-            "name": "심텍",
-            "ratio": 21.74,
-            "amount": "3,107억"
-        },
-        {
-            "name": "현대무벡스",
-            "ratio": 15.25,
-            "amount": "2,935억"
+            "name": "남성",
+            "ratio": 15.2,
+            "amount": "2,100억"
         }
     ],
     "spac_ipo_list": [
