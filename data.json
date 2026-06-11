@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-06-11 09:13:52",
+    "updated_at": "2026-06-11 09:16:16",
     "macro": {
         "US30Y": {
             "price": 5.01,
@@ -17,18 +17,18 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 89.27,
-            "change": -0.76,
-            "direction": "down"
-        },
-        "BRENT": {
-            "price": 92.3,
+            "price": 89.23,
             "change": -0.8,
             "direction": "down"
         },
+        "BRENT": {
+            "price": 92.2,
+            "change": -0.9,
+            "direction": "down"
+        },
         "USD_KRW": {
-            "price": 153.15,
-            "change": 0.57,
+            "price": 153.16,
+            "change": 0.58,
             "direction": "up"
         },
         "VIX": {
@@ -84,8 +84,8 @@
                 "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRk1rRGNMLXFtdjVFR1MzbXJsU2k3Y3Q5SHRfNk9YZXNUeVZZeW0yc25kUkVEYWpPVzZvMjlNVHpIS3lNU01tVS1xZklCa2hPOVF2LWZJanpMQ19FVkY2cEljSUdWMDh3OWhCRG1TVHI1YVF6bnRqT3hsbnR5WnBwbE9VSVFSeEFSVkxYS1UtYW85Nzh0UDFsd2VYd0lwNF9WM1MxT2tRWG1pemVaNVprVFNsVUQ4ZlFLX0ZBMUtUS0Y5QjNBdjVFb3h0ME1kYzdlbXFmSUxBb29Fc29OM0tGaUszVXd4Zw?oc=5"
             },
             {
-                "title": "Tech stocks plunge as chip ETF SOXL drops 16%, AMD falls 6% amid fading recovery and SpaceX IPO jitters - Pluang",
-                "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9lNGViZG45SlF5aHhsaWtJeWU2U1pJdGZpejVrSEZoS1ZweW1MUnlYcXh0TjQ5NmM2cXlKWDFIQm1CODRGdUpNcWlmdFdxdjlCSEstUTAtSVJhejlPZkUtVUxNVk1HY1duTjlqSGtZcXdIejAxVkhtUlRn?oc=5"
+                "title": "SOXL Stock Analysis: Is This 55% Drop A Buying Opportunity? 💥 Price Predictions Inside! Blue Jays Score (Srn4FA5gLP) - Fathom Journal",
+                "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0waWlkYU9UOWJZX3Z1blNXajZMc243LXoxcENBZVVEeHNFaG9nUjc0a3NFM3Z1eHNMVFI3b3FpQWR4ZUc1bVBodlJuaHpLVzkzVG9ZNXhUNW1UVEFEQnA1T0NzY2c?oc=5"
             }
         ],
         "QQQM": [
@@ -112,8 +112,8 @@
                 "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWDREUHdoSDhIVGx6eEViMTNpQ1lveVBXWUNGZ2VGWWlNc0Y3NmcxWHZERGp4Z1VpNGt4MzRSQmJVbW1EMGZ2Ujk1S0xEWlhuWk5wMUN3UVE4S1FrOGRKbi1IQmhjbFNjMzNOaDQzQktNSU9meFIzTGNJTHZUblRyZU40NlVBMzFBMUY5N1d3S28tV3M?oc=5"
             },
             {
-                "title": "SCHD’s $85 Billion Strategy Now Concentrates 41 Percent of Your Money in Just Ten Stocks - AOL.com",
-                "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5vdU05NTVJUjZkUG0wWUR5TEhSME5wZ0YxVGhHNW5CNHc5UFZ2c3N4emg5TkJIaDdqZ3BGVFA4Y01hbVZvamljVWR4VGhUVC14VmdsS2o1bUxleEZkdjNoY01uVG1RelBVSXdZMEQ3SnZIRzg0aDhzbDB4VXk?oc=5"
+                "title": "SCHD: The Dividend ETF That Delivers - AOL.com",
+                "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5HbmhWNHo2TzRIcTVZMGJzUXA2UEoxUWs5Mlh1OXhPRmJDdnlqdnJSd1VsTVhoUXlhVkNfR1VmX1BZSzBwRVhsTFVzTzBvd0F3YkVrUllfWXJ1dGVfSmJNWklFSFpFRWo4dXNQQnpEN3EtdExFc3hLMW1B?oc=5"
             },
             {
                 "title": "SCHD vs. VYM: Which Dividend ETF Builds a Better Income Stream? - 24/7 Wall St.",
@@ -138,8 +138,8 @@
                 "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTXpzV2drdVRITXRXaFBEdGsxdFdTR2FSazBFMDJKWUJ4MF8tWWNZQnEwT2tpYXh5cmFEOUZGemN2dUV0ZTFjbjZHNDdXZ005bXV6UlVkVzNJc05Yc0t0Ri0ySzBCOXItVTI5eGZUTFRMTm10RXlLMkhFZWpnbjNvSkVoSnN0V09XaV9ucVNfeWdLWkIzQXNHWDJBZXRsNktwcl80bE40a3g2aS1ibEZwMEJodmlqYTd4UmFGdldSNTdOeElValkwWjU4YWpWNnY0YnQ4VzE1aHRzaTJIMUZqX29CaktiQUxYU2NyZFdoWQ?oc=5"
             },
             {
-                "title": "Prediction: Tesla Stock Will Hit $500 on This Date - 24/7 Wall St.",
-                "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTmRZeloyYjdTRUZTYnFRREJPdVVlUnF6YTVtanJuUXNFRW9NM0IzUUZQUHdONkxBMGlyYUJWdEpraXZzWjNHRmMtUFVfenFOd3hwd0EyRHFieGdfOFVkOUF6aUxHek5QYV95cEZDT0FtUVQwc2FJZ2FKX1RrU1VFVk52V2RzU0laOEFFMmdUV05XbzhQak1R?oc=5"
+                "title": "The Number That Complicates The Tesla Stock Story - Trefis",
+                "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSDFNVm83YkdTZHBsZER0bkF5eXVEMWZFcmQyTVpLalFDbzE2N01PRzVjT2ZsQ1lZWlJZdmhKa2kyeVRqT0ZxUWlCeFJMZGtNZ0NVcXJPZzRjY1ZLYkdUY01Jc05sV2tRWTA5Y05ZNWxETHlmaFFlQUV2R1hxSWxLMWVoNnFtTEZSQ25FdWtwTzNYYzB6SWQtNktRUTB5MlgzMVFfa0Nrc0tXUXQ4ODF5NVpzclBXcnZKQi1R?oc=5"
             }
         ]
     }
