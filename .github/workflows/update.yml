@@ -2,8 +2,8 @@ name: Auto Asset Data Update
 
 on:
   schedule:
-    - cron: '0 */2 * * *' # 2시간마다 전 세계 금융 데이터를 백그라운드에서 자동으로 긁어옵니다.
-  workflow_dispatch: # 사용자가 깃허브에서 'Run workflow' 버튼을 누르면 즉시 수동 수집도 가능하게 합니다.
+    - cron: '0 * * * *' # 장중 실시간 포착률을 높이기 위해 매시 정각(1시간 주기)으로 단축
+  workflow_dispatch:
 
 jobs:
   build:
@@ -21,13 +21,13 @@ jobs:
       run: |
         pip install yfinance
 
-    - name: 수집 스크립트 엔진 실행
+    - name: 수집 및 조건 검색 스크립트 실행
       run: python update_data.py
 
-    - name: 수집된 신규 데이터를 data.json에 커밋 및 자동 푸시
+    - name: data.json 커밋 및 푸시
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add data.json
-        git commit -m "Automated Financial Data Sync" || exit 0
+        git commit -m "Automated Market Leader & DART Sync" || exit 0
         git push
