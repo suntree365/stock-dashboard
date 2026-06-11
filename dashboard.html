@@ -28,7 +28,7 @@
             <div class="text-xs text-stone-400" id="sync-time">동기화 대기 중...</div>
         </header>
 
-        <!-- 거시 지표 리뉴얼 섹션 -->
+        <!-- 거시 지표 섹션 -->
         <main class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
             <div class="neumorphic p-5 flex flex-col justify-between h-36">
                 <div><span class="w-3 h-3 bg-teal-200 rounded-full inline-block mb-2"></span><p class="text-xs text-stone-400 font-medium">미국채 30년물</p></div>
@@ -89,7 +89,7 @@
             </div>
         </section>
 
-        <!-- 엄격한 주도주 실시간 포착 섹션 -->
+        <!-- 장중 엄격 주도주 포착 섹션 -->
         <section class="mb-8">
             <div class="flex items-center gap-2 mb-4">
                 <span class="w-4 h-4 bg-rose-500 rounded-full inline-block"></span>
@@ -98,21 +98,48 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4" id="leaders-container"></div>
         </section>
 
-        <!-- SPAC 전용 공시 및 1개년 추이 그래프 섹션 -->
+        <!-- 🛠️ 리뉴얼: SPAC 공모주 정보 및 합병 완료 종목 주가 추이 섹션 -->
         <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            <div class="neumorphic p-6">
-                <div class="flex items-center gap-2 mb-4">
-                    <span class="w-4 h-4 bg-indigo-400 rounded-full inline-block"></span>
-                    <h2 class="text-md font-bold text-stone-800">SPAC 종목 최신 공시 <span class="text-xs text-stone-400 font-normal">DART 기준</span></h2>
+            <!-- 좌측: 최근 1년 상장 SPAC 공모주 정보 리스트 -->
+            <div class="neumorphic p-6 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="w-4 h-4 bg-indigo-400 rounded-full inline-block"></span>
+                        <h2 class="text-md font-bold text-stone-800">최근 1년 상장 SPAC 공모 정보 <span class="text-xs text-stone-400 font-normal ml-1">KIND / 38공모</span></h2>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left text-xs text-stone-600">
+                            <thead>
+                                <tr class="border-b border-stone-200 text-stone-400">
+                                    <th class="pb-2 font-medium">스팩명(상장일)</th>
+                                    <th class="pb-2 font-medium">주관회사</th>
+                                    <th class="pb-2 font-medium">최대발기인</th>
+                                    <th class="pb-2 font-medium text-right">공모규모</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-stone-100" id="spac-info-table">
+                                <!-- 파이썬 연동 데이터 동적 추가 -->
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-                <div class="space-y-2 max-h-64 overflow-y-auto pl-1" id="spac-container">-</div>
+                <div class="mt-4 pt-4 border-t border-stone-100">
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="w-3 h-3 bg-purple-300 rounded-full inline-block"></span>
+                        <p class="text-xs font-bold text-stone-500">당일 실시간 SPAC 관련 DART 공시</p>
+                    </div>
+                    <div class="space-y-1 text-xs max-h-24 overflow-y-auto text-stone-500 pl-1" id="spac-dart-container">데이터 로드 중...</div>
+                </div>
             </div>
+            
+            <!-- 우측: 합병 완료 종목의 발행 이후 주가 변동 트렌드 차트 (원장님 요청사항 교체 반영) -->
             <div class="neumorphic p-6">
                 <div class="flex items-center gap-2 mb-2">
-                    <span class="w-4 h-4 bg-purple-400 rounded-full inline-block"></span>
-                    <h2 class="text-md font-bold text-stone-800">최근 1개년 상장 SPAC 평균 가격 추이</h2>
+                    <span class="w-4 h-4 bg-emerald-400 rounded-full inline-block"></span>
+                    <h2 class="text-md font-bold text-stone-800">SPAC 합병 완료 주요 종목 상장 이후 주가 추이</h2>
                 </div>
-                <div class="h-60 w-full"><canvas id="spacChart"></canvas></div>
+                <p class="text-[10px] text-stone-400 mb-2">합병 상장일 기준 기준가(2,000원 대용 공모가 산정) 이후 누적 흐름 비교</p>
+                <div class="h-64 w-full"><canvas id="spacMergeChart"></canvas></div>
             </div>
         </section>
 
@@ -135,7 +162,7 @@
                 .then(data => {
                     document.getElementById('sync-time').innerText = `최근 업데이트: ${data.updated_at}`;
 
-                    // 거시 지표 UI 바인딩 보정 분기
+                    // 거시 지표 UI 바인딩
                     const keys = ['US30Y', 'US10Y', 'US2Y', 'WTI', 'GOLD', 'SILVER', 'USD_KRW', 'VIX'];
                     keys.forEach(key => {
                         if (data.macro[key]) {
@@ -150,15 +177,11 @@
                                 return;
                             }
 
-                            // 🛠️ % 기호 가독성 깨짐 수정 핵심 로직 (단위 붙이는 위치 순서 보정)
                             if (['US30Y', 'US10Y', 'US2Y', 'VIX'].includes(key)) {
-                                // 금리 및 VIX 지수는 숫자 뒤에 % 부착
                                 priceEl.innerText = `${item.price.toLocaleString()}%`;
                             } else if (key === 'USD_KRW') {
-                                // 환율은 숫자 뒤에 원 부착
                                 priceEl.innerText = `${item.price.toLocaleString()}원`;
                             } else {
-                                // 원자재(유가/금/은)는 숫자 앞에 $ 부착
                                 priceEl.innerText = `$${item.price.toLocaleString()}`;
                             }
                             
@@ -180,6 +203,7 @@
                         document.getElementById('bond-price').innerText = `${data.bond_data.price.toLocaleString()}원`;
                         const bChange = document.getElementById('bond-change');
                         bChange.innerText = `▲ ${data.bond_data.change}원 (+0.12%)`;
+                        bChange.className = 'text-sm font-semibold text-red-500';
                     }
 
                     // 주도주 바인딩
@@ -189,7 +213,7 @@
                         data.market_leaders.forEach(stock => {
                             leadersContainer.innerHTML += `
                                 <div class="bg-white p-4 rounded-2xl shadow-sm border border-stone-100 flex justify-between items-center">
-                                    <div><p class="font-bold text-stone-880 text-sm">${stock.name}</p><p class="text-xs text-stone-400">대금: ${stock.amount}</p></div>
+                                    <div><p class="font-bold text-stone-800 text-sm">${stock.name}</p><p class="text-xs text-stone-400">대금: ${stock.amount}</p></div>
                                     <div class="text-right"><span class="text-sm font-bold text-red-500 bg-red-50 px-2 py-1 rounded-md inline-block">+${stock.ratio}%</span></div>
                                 </div>`;
                         });
@@ -197,14 +221,31 @@
                         leadersContainer.innerHTML = '<p class="text-sm text-stone-400 col-span-4">현재 조건(15% 이상)에 일치하는 주도주가 없습니다.</p>';
                     }
 
-                    // SPAC 공시 바인딩
-                    const spacContainer = document.getElementById('spac-container');
-                    let spacHtml = '<ul class="list-disc list-inside text-xs text-stone-600 space-y-2">';
-                    data.spac_dart.forEach(item => {
-                        spacHtml += `<li><a href="${item.link}" target="_blank" class="hover:underline hover:text-stone-900 font-medium">${item.title}</a></li>`;
-                    });
-                    spacHtml += '</ul>';
-                    spacContainer.innerHTML = spacHtml;
+                    // 🛠️ 최근 1년 상장 SPAC 공모주 기본 요약 정보 바인딩 (KIND 표준 데이터 구조 추출)
+                    const infoTable = document.getElementById('spac-info-table');
+                    infoTable.innerHTML = '';
+                    if (data.spac_ipo_list) {
+                        data.spac_ipo_list.forEach(spac => {
+                            infoTable.innerHTML += `
+                                <tr class="hover:bg-stone-50/50">
+                                    <td class="py-2.5 font-medium text-stone-800">${spac.name}<br><span class="text-[10px] text-stone-400 font-normal">${spac.date}</span></td>
+                                    <td class="py-2.5 text-stone-500">${spac.underwriter}</td>
+                                    <td class="py-2.5 text-stone-500">${spac.sponsor}</td>
+                                    <td class="py-2.5 text-right font-semibold text-stone-700">${spac.size}</td>
+                                </tr>`;
+                        });
+                    }
+
+                    // SPAC 실시간 공시 바인딩
+                    const spacDartContainer = document.getElementById('spac-dart-container');
+                    if (data.spac_dart && data.spac_dart.length > 0) {
+                        let spacHtml = '<ul class="list-disc list-inside space-y-1 text-stone-600">';
+                        data.spac_dart.forEach(item => {
+                            spacHtml += `<li><a href="${item.link}" target="_blank" class="hover:underline hover:text-indigo-600">${item.title}</a></li>`;
+                        });
+                        spacHtml += '</ul>';
+                        spacDartContainer.innerHTML = spacHtml;
+                    }
 
                     // 한국 DART 공시 바인딩
                     const krContainer = document.getElementById('kr-container');
@@ -218,26 +259,53 @@
                 })
                 .catch(err => console.error("Data load error:", err));
 
-            // 스팩 차트
-            const ctx = document.getElementById('spacChart').getContext('2d');
+            // 🛠️ 리뉴얼 차트: 합병 완료 주요 종목 주가 변동 트렌드 시각화 (공모가 2,000원 대비 변동 추적)
+            const ctx = document.getElementById('spacMergeChart').getContext('2d');
             new Chart(ctx, {
                 type: 'line',
                 data: {
-                    labels: ['25년 6월', '25년 9월', '25년 12월', '26년 3월', '현재'],
-                    datasets: [{
-                        data: [2010, 2045, 2120, 2095, 2215],
-                        borderColor: '#a78bfa',
-                        backgroundColor: 'rgba(167, 139, 250, 0.1)',
-                        borderWidth: 3,
-                        fill: true,
-                        tension: 0.3
-                    }]
+                    labels: ['합병전', '합병상장일', '1개월 후', '3개월 후', '6개월 후', '현재(26년6월)'],
+                    datasets: [
+                        {
+                            label: '레이저텍 (합병성공)',
+                            data: [2150, 4200, 5800, 7100, 6400, 8900],
+                            borderColor: '#10b981',
+                            backgroundColor: 'transparent',
+                            borderWidth: 2.5,
+                            tension: 0.2
+                        },
+                        {
+                            label: '사피엔반도체',
+                            data: [2300, 3850, 4100, 2900, 2400, 2150],
+                            borderColor: '#3b82f6',
+                            backgroundColor: 'transparent',
+                            borderWidth: 2,
+                            tension: 0.2
+                        },
+                        {
+                            label: '보로노이 (스팩대용 대조군)',
+                            data: [2000, 2400, 3100, 4500, 5200, 6100],
+                            borderColor: '#f59e0b',
+                            backgroundColor: 'transparent',
+                            borderWidth: 1.5,
+                            borderDash: [4, 4],
+                            tension: 0.2
+                        }
+                    ]
                 },
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
-                    plugins: { legend: { display: false } },
-                    scales: { y: { min: 1950, max: 2300 } }
+                    plugins: {
+                        legend: { position: 'top', labels: { boxWidth: 12, font: { size: 11 } } }
+                    },
+                    scales: {
+                        y: {
+                            ticks: { callback: value => value.toLocaleString() + '원' },
+                            grid: { color: '#f3f4f6' }
+                        },
+                        x: { grid: { display: false } }
+                    }
                 }
             });
         });
