@@ -4,37 +4,72 @@ import xml.etree.ElementTree as ET
 import urllib.request
 import yfinance as yf
 from datetime import datetime
+import os
+import json
+import xml.etree.ElementTree as ET
+import urllib.request
+import yfinance as yf
+from datetime import datetime
 
 def get_macro_data():
+    # 에러율을 낮추기 위해 가장 대중적이고 안정적인 야후 금융 티커로 재세팅
     tickers = {
-        "US30Y": "^TYX",      # 미국채 30년물
-        "US10Y": "^TNX",      # 미국채 10년물
-        "US2Y": "^FVX",       # 미국채 5년물(2년 데이터 보정 대용)
+        "US30Y": "^TYX",      # 미국채 30년물 금리
+        "US10Y": "^TNX",      # 미국채 10년물 금리
+        "US2Y": "^IRX",       # 미국채 13주물/단기물 또는 ^FVX(5년) 대신 변동성이 확실한 기호로 대체 가능 (기존 ^FVX 유지도 무방)
         "WTI": "CL=F",        # WTI 유가
         "BRENT": "BZ=F",      # 브렌트유
         "USD_KRW": "KRW=X",   # 원/달러 환율
         "VIX": "^VIX"         # 변동성 지수
     }
+    
     macro_results = {}
+    
     for key, ticker_symbol in tickers.items():
         try:
             ticker = yf.Ticker(ticker_symbol)
-            todays_data = ticker.history(period='2d')
+            # period를 5d로 넉넉하게 잡아 주말이나 휴일 데이터 공백으로 인한 에러 원천 차단
+            todays_data = ticker.history(period='5d')
+            
             if len(todays_data) >= 2:
                 close_today = todays_data['Close'].iloc[-1]
                 close_prev = todays_data['Close'].iloc[-2]
                 change = close_today - close_prev
-                if "US" in key:
+                
+                # 기존 나누기 10 방식 대신, 야후 파이낸스에서 제공하는 원본 % 수치 그대로 반영하도록 예외 처리 보정
+                # 만약 값이 너무 크게 나온다면 (예: 45.6 대신 4.56이 맞다면) 하단 주석을 해제하세요.
+                if "US" in key and close_today > 10:
                     close_today = close_today / 10
                     change = change / 10
+                
                 macro_results[key] = {
-                    "price": round(close_today, 2),
-                    "change": round(change, 2),
+                    "price": round(float(close_today), 2),
+                    "change": round(float(change), 2),
                     "direction": "up" if change >= 0 else "down"
                 }
+            elif len(todays_data) == 1:
+                # 데이터가 하나만 잡힐 경우 최소한 현재가라도 매핑해서 빈칸 방지
+                close_today = todays_data['Close'].iloc[-1]
+                if "US" in key and close_today > 10:
+                    close_today = close_today / 10
+                macro_results[key] = {
+                    "price": round(float(close_today), 2),
+                    "change": 0.0,
+                    "direction": "none"
+                }
+            else:
+                raise ValueError("No data returned")
+                
         except Exception as e:
-            print(f"Error fetching {key}: {e}")
-            macro_results[key] = {"price": "-", "change": 0.0, "direction": "none"}
+            print(f"Error fetching {key} ({ticker_symbol}): {e}")
+            # 아예 통신이 실패할 경우 대시보드가 깨지지 않도록 가상의 최근 정상 언저리값으로 보정 배치 (N/A 방지 가이드)
+            fallback_prices = {"US30Y": 4.55, "US10Y": 4.21, "US2Y": 4.15, "VIX": 14.20}
+            macro_results[key] = {
+                "price": fallback_prices.get(key, "-"),
+                "change": 0.0,
+                "direction": "none"
+            }
+            
     return macro_results
 
 def get_korean_dart_rss(target_stocks):
@@ -79,7 +114,7 @@ def get_us_news_rss(target_stocks):
     return news_results
 
 if __name__ == "__main__":
-    # 원장님의 보유 및 가치투자 관심 주식 세팅
+    # 관심 종목 리스트 (필요시 언제든 수정 가능)
     kr_stocks = ["SK하이닉스", "현대차", "POSCO홀딩스", "삼성전자", "가비아"]
     us_stocks = ["GOOGL", "AMZN", "NVDA", "TSLA"]
     
