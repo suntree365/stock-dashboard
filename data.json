@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-06-19 14:04:04",
+    "updated_at": "2026-06-19 19:48:56",
     "macro": {
         "US30Y": {
             "price": 4.97,
@@ -17,28 +17,28 @@
             "direction": "down"
         },
         "WTI": {
-            "price": 75.86,
-            "change": -0.74,
+            "price": 76.15,
+            "change": -0.45,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4149.4,
-            "change": -74.7,
+            "price": 4171.7,
+            "change": -52.4,
             "direction": "down"
         },
         "SILVER": {
-            "price": 63.63,
-            "change": -2.62,
+            "price": 64.97,
+            "change": -1.28,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1538.28,
-            "change": 12.86,
+            "price": 1529.69,
+            "change": 4.27,
             "direction": "up"
         },
         "VIX": {
-            "price": 16.4,
-            "change": -2.04,
+            "price": 17.18,
+            "change": -1.26,
             "direction": "down"
         },
         "FED_RATE": {
@@ -136,8 +136,12 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)IBKS제24호스팩 - 주요사항보고서(회사합병결정)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260619000664"
+        },
+        {
+            "title": "(코스닥)IBKS제24호스팩 - 주권매매거래정지 (SPAC 합병(예비심사청구대상))",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260619901008"
         }
     ]
 }
