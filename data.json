@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-06-19 23:16:38",
+    "updated_at": "2026-06-20 02:22:55",
     "macro": {
         "US30Y": {
             "price": 4.97,
@@ -17,28 +17,28 @@
             "direction": "down"
         },
         "WTI": {
-            "price": 76.09,
-            "change": -0.51,
+            "price": 76.54,
+            "change": -0.06,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4169.3,
-            "change": -54.8,
+            "price": 4172.9,
+            "change": -51.2,
             "direction": "down"
         },
         "SILVER": {
-            "price": 64.78,
-            "change": -1.48,
+            "price": 64.91,
+            "change": -1.34,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1529.88,
-            "change": 4.46,
+            "price": 1532.98,
+            "change": 7.56,
             "direction": "up"
         },
         "VIX": {
-            "price": 16.89,
-            "change": 0.49,
+            "price": 16.78,
+            "change": 0.38,
             "direction": "up"
         },
         "FED_RATE": {
@@ -136,12 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)IBKS제24호스팩 - 주요사항보고서(회사합병결정)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260619000664"
-        },
-        {
-            "title": "(코스닥)IBKS제24호스팩 - 주권매매거래정지 (SPAC 합병(예비심사청구대상))",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260619901008"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
