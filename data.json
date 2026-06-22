@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-06-22 08:22:21",
+    "updated_at": "2026-06-22 14:08:26",
     "macro": {
         "US30Y": {
             "price": 4.9,
@@ -17,23 +17,23 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 77.53,
-            "change": 0.93,
-            "direction": "up"
+            "price": 75.42,
+            "change": -1.18,
+            "direction": "down"
         },
         "GOLD": {
-            "price": 4177.7,
-            "change": -46.4,
+            "price": 4198.1,
+            "change": -26.0,
             "direction": "down"
         },
         "SILVER": {
-            "price": 65.02,
-            "change": -1.24,
+            "price": 65.58,
+            "change": -0.67,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1529.1,
-            "change": -8.46,
+            "price": 1537.26,
+            "change": -0.3,
             "direction": "down"
         },
         "VIX": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)미래에셋비전스팩6호 - 기업인수목적회사의예치ㆍ신탁계약내용변경",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260622900351"
         }
     ]
 }
