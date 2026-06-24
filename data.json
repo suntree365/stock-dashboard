@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-06-24 23:45:38",
+    "updated_at": "2026-06-25 02:10:08",
     "macro": {
         "US30Y": {
             "price": "-",
@@ -13,32 +13,32 @@
         },
         "US2Y": {
             "price": 3.69,
-            "change": 0.03,
+            "change": 0.04,
             "direction": "up"
         },
         "WTI": {
-            "price": 70.15,
-            "change": -3.06,
+            "price": 70.55,
+            "change": -2.66,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4048.4,
-            "change": -81.5,
+            "price": 4022.9,
+            "change": -107.0,
             "direction": "down"
         },
         "SILVER": {
-            "price": 59.37,
-            "change": -2.65,
+            "price": 58.63,
+            "change": -3.39,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1543.28,
-            "change": 4.23,
+            "price": 1543.01,
+            "change": 3.96,
             "direction": "up"
         },
         "VIX": {
-            "price": 18.68,
-            "change": -0.81,
+            "price": 18.9,
+            "change": -0.59,
             "direction": "down"
         },
         "FED_RATE": {
@@ -123,8 +123,8 @@
         ],
         "삼성전자": [
             {
-                "title": "(유가)삼성전자 - 풍문또는보도에대한해명(미확정)",
-                "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260624801004"
+                "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
+                "link": "#"
             }
         ],
         "케이피에이치공산업": [
