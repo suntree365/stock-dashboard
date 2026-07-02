@@ -1,44 +1,44 @@
 {
-    "updated_at": "2026-07-02 21:13:30",
+    "updated_at": "2026-07-03 00:22:25",
     "macro": {
         "US30Y": {
-            "price": 4.86,
-            "change": 0.01,
+            "price": 4.97,
+            "change": 0.1,
             "direction": "up"
         },
         "US10Y": {
-            "price": 4.37,
-            "change": -0.02,
-            "direction": "down"
+            "price": 4.46,
+            "change": 0.09,
+            "direction": "up"
         },
         "US2Y": {
-            "price": 3.66,
-            "change": -0.02,
-            "direction": "down"
+            "price": 3.67,
+            "change": 0.0,
+            "direction": "up"
         },
         "WTI": {
-            "price": 67.3,
-            "change": -1.28,
+            "price": 67.55,
+            "change": -1.03,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4075.4,
-            "change": 7.1,
+            "price": 4142.3,
+            "change": 74.0,
             "direction": "up"
         },
         "SILVER": {
-            "price": 60.21,
-            "change": 0.12,
+            "price": 61.67,
+            "change": 1.58,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1548.38,
-            "change": -0.23,
+            "price": 1541.69,
+            "change": -6.92,
             "direction": "down"
         },
         "VIX": {
-            "price": 16.61,
-            "change": 0.02,
+            "price": 16.66,
+            "change": 0.07,
             "direction": "up"
         },
         "FED_RATE": {
@@ -136,20 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)하나34호스팩 - [기재정정]주주명부폐쇄기간또는기준일설정",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260702900962"
-        },
-        {
-            "title": "(코스닥)하나34호스팩 - 주주명부폐쇄기간또는기준일설정",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260702900960"
-        },
-        {
-            "title": "(코스닥)하나34호스팩 - 기업인수목적회사의임원선임결정",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260702900959"
-        },
-        {
-            "title": "(코스닥)하나34호스팩 - 주주총회소집결의 (임시주주총회)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260702900956"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
