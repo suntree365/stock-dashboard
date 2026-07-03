@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-07-04 02:39:47",
+    "updated_at": "2026-07-04 04:39:06",
     "macro": {
         "US30Y": {
             "price": 4.86,
@@ -32,8 +32,8 @@
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1529.56,
-            "change": -22.25,
+            "price": 1530.24,
+            "change": -21.57,
             "direction": "down"
         },
         "VIX": {
