@@ -1,21 +1,6 @@
 {
-    "updated_at": "2026-07-05 04:23:59",
+    "updated_at": "2026-07-05 06:05:29",
     "macro": {
-        "US30Y": {
-            "price": 4.86,
-            "change": 0.01,
-            "direction": "up"
-        },
-        "US10Y": {
-            "price": 4.37,
-            "change": -0.02,
-            "direction": "down"
-        },
-        "US2Y": {
-            "price": 3.66,
-            "change": -0.02,
-            "direction": "down"
-        },
         "WTI": {
             "price": 68.78,
             "change": 0.09,
