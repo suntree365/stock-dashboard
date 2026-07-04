@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-07-04 12:45:17",
+    "updated_at": "2026-07-04 15:52:42",
     "macro": {
         "US30Y": {
             "price": 4.86,
@@ -37,8 +37,8 @@
             "direction": "down"
         },
         "VIX": {
-            "price": 15.81,
-            "change": -0.34,
+            "price": 16.15,
+            "change": -0.44,
             "direction": "down"
         },
         "FED_RATE": {
