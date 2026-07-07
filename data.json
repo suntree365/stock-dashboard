@@ -1,44 +1,44 @@
 {
-    "updated_at": "2026-07-07 20:57:44",
+    "updated_at": "2026-07-08 00:07:41",
     "macro": {
         "US30Y": {
-            "price": 4.99,
-            "change": 0.02,
+            "price": 5.02,
+            "change": 0.04,
             "direction": "up"
         },
         "US10Y": {
-            "price": 4.49,
-            "change": 0.01,
+            "price": 4.51,
+            "change": 0.02,
             "direction": "up"
         },
         "US2Y": {
-            "price": 3.67,
-            "change": -0.03,
-            "direction": "down"
+            "price": 3.72,
+            "change": 0.06,
+            "direction": "up"
         },
         "WTI": {
-            "price": 69.16,
-            "change": 0.61,
+            "price": 70.19,
+            "change": 1.64,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4161.0,
-            "change": 5.9,
+            "price": 4165.3,
+            "change": 10.2,
             "direction": "up"
         },
         "SILVER": {
-            "price": 61.62,
-            "change": -0.3,
+            "price": 61.33,
+            "change": -0.59,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1514.18,
-            "change": -16.82,
+            "price": 1514.66,
+            "change": -16.34,
             "direction": "down"
         },
         "VIX": {
-            "price": 15.97,
-            "change": 0.4,
+            "price": 16.43,
+            "change": 0.86,
             "direction": "up"
         },
         "FED_RATE": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)IBKS제23호스팩 - 기타시장안내 (주권 상장폐지 우려 예고)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260707900708"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
