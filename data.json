@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-07-07 17:27:58",
+    "updated_at": "2026-07-07 20:57:44",
     "macro": {
         "US30Y": {
             "price": 4.99,
@@ -17,28 +17,28 @@
             "direction": "down"
         },
         "WTI": {
-            "price": 69.35,
-            "change": 0.8,
+            "price": 69.16,
+            "change": 0.61,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4147.7,
-            "change": -7.4,
-            "direction": "down"
+            "price": 4161.0,
+            "change": 5.9,
+            "direction": "up"
         },
         "SILVER": {
-            "price": 61.6,
-            "change": -0.31,
+            "price": 61.62,
+            "change": -0.3,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1522.6,
-            "change": -8.4,
+            "price": 1514.18,
+            "change": -16.82,
             "direction": "down"
         },
         "VIX": {
-            "price": 15.89,
-            "change": 0.32,
+            "price": 15.97,
+            "change": 0.4,
             "direction": "up"
         },
         "FED_RATE": {
@@ -123,8 +123,8 @@
         ],
         "삼성전자": [
             {
-                "title": "(유가)삼성전자 - 주요사항보고서(자기주식처분결정)",
-                "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260707000403"
+                "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
+                "link": "#"
             }
         ],
         "케이피에이치공산업": [
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)IBKS제23호스팩 - 기타시장안내 (주권 상장폐지 우려 예고)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260707900708"
         }
     ]
 }
