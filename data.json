@@ -1,45 +1,45 @@
 {
-    "updated_at": "2026-07-07 13:01:13",
+    "updated_at": "2026-07-07 17:27:58",
     "macro": {
         "US30Y": {
             "price": 4.99,
-            "change": 0.01,
-            "direction": "up"
-        },
-        "US10Y": {
-            "price": 4.48,
-            "change": -0.01,
-            "direction": "down"
-        },
-        "US2Y": {
-            "price": 3.69,
             "change": 0.02,
             "direction": "up"
         },
-        "WTI": {
-            "price": 68.55,
-            "change": -0.14,
+        "US10Y": {
+            "price": 4.49,
+            "change": 0.01,
+            "direction": "up"
+        },
+        "US2Y": {
+            "price": 3.67,
+            "change": -0.03,
             "direction": "down"
         },
-        "GOLD": {
-            "price": 4155.1,
-            "change": 42.4,
+        "WTI": {
+            "price": 69.35,
+            "change": 0.8,
             "direction": "up"
+        },
+        "GOLD": {
+            "price": 4147.7,
+            "change": -7.4,
+            "direction": "down"
         },
         "SILVER": {
-            "price": 61.92,
-            "change": 1.28,
-            "direction": "up"
+            "price": 61.6,
+            "change": -0.31,
+            "direction": "down"
         },
         "USD_KRW": {
-            "price": 1522.88,
-            "change": -8.12,
+            "price": 1522.6,
+            "change": -8.4,
             "direction": "down"
         },
         "VIX": {
-            "price": 15.57,
-            "change": -0.58,
-            "direction": "down"
+            "price": 15.89,
+            "change": 0.32,
+            "direction": "up"
         },
         "FED_RATE": {
             "price": 5.25,
@@ -123,8 +123,8 @@
         ],
         "삼성전자": [
             {
-                "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
-                "link": "#"
+                "title": "(유가)삼성전자 - 주요사항보고서(자기주식처분결정)",
+                "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260707000403"
             }
         ],
         "케이피에이치공산업": [
