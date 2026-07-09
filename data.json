@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-07-09 12:54:57",
+    "updated_at": "2026-07-09 16:44:27",
     "macro": {
         "US30Y": {
             "price": 5.07,
@@ -17,29 +17,29 @@
             "direction": "down"
         },
         "WTI": {
-            "price": 74.36,
-            "change": 3.92,
-            "direction": "up"
+            "price": 72.9,
+            "change": -0.62,
+            "direction": "down"
         },
         "GOLD": {
-            "price": 4071.0,
-            "change": -74.3,
-            "direction": "down"
+            "price": 4115.0,
+            "change": 44.1,
+            "direction": "up"
         },
         "SILVER": {
-            "price": 58.17,
-            "change": -2.76,
-            "direction": "down"
+            "price": 59.49,
+            "change": 1.32,
+            "direction": "up"
         },
         "USD_KRW": {
-            "price": 1505.61,
-            "change": -14.25,
+            "price": 1509.35,
+            "change": -10.51,
             "direction": "down"
         },
         "VIX": {
-            "price": 16.9,
-            "change": 0.77,
-            "direction": "up"
+            "price": 16.61,
+            "change": -0.29,
+            "direction": "down"
         },
         "FED_RATE": {
             "price": 5.25,
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)이베스트스팩6호 - 기업인수목적회사의예치ㆍ신탁계약내용변경",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260709900133"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
