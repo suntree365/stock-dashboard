@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-07-09 08:15:08",
+    "updated_at": "2026-07-09 12:54:57",
     "macro": {
         "US30Y": {
             "price": 5.07,
@@ -17,23 +17,23 @@
             "direction": "down"
         },
         "WTI": {
-            "price": 74.51,
-            "change": 4.07,
+            "price": 74.36,
+            "change": 3.92,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4084.3,
-            "change": -61.0,
+            "price": 4071.0,
+            "change": -74.3,
             "direction": "down"
         },
         "SILVER": {
-            "price": 58.76,
-            "change": -2.18,
+            "price": 58.17,
+            "change": -2.76,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1504.55,
-            "change": -15.31,
+            "price": 1505.61,
+            "change": -14.25,
             "direction": "down"
         },
         "VIX": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)이베스트스팩6호 - 기업인수목적회사의예치ㆍ신탁계약내용변경",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260709900133"
         }
     ]
 }
