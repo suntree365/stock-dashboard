@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-07-10 17:31:01",
+    "updated_at": "2026-07-10 21:01:05",
     "macro": {
         "US30Y": {
             "price": 5.05,
@@ -17,28 +17,28 @@
             "direction": "down"
         },
         "WTI": {
-            "price": 71.52,
-            "change": -0.56,
-            "direction": "down"
+            "price": 72.65,
+            "change": 0.57,
+            "direction": "up"
         },
         "GOLD": {
-            "price": 4116.3,
-            "change": -14.3,
+            "price": 4116.1,
+            "change": -14.5,
             "direction": "down"
         },
         "SILVER": {
-            "price": 60.28,
-            "change": -0.09,
+            "price": 59.92,
+            "change": -0.46,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1506.16,
-            "change": 2.81,
-            "direction": "up"
+            "price": 1503.35,
+            "change": -16.51,
+            "direction": "down"
         },
         "VIX": {
-            "price": 16.05,
-            "change": 0.21,
+            "price": 15.9,
+            "change": 0.06,
             "direction": "up"
         },
         "FED_RATE": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)하나30호스팩 - 기타시장안내 (주권 상장폐지 우려 예고)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260710900990"
         }
     ]
 }
