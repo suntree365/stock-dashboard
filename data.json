@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-07-14 15:17:31",
+    "updated_at": "2026-07-14 18:09:00",
     "macro": {
         "US30Y": {
             "price": 5.1,
@@ -17,28 +17,28 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 79.6,
-            "change": 1.46,
+            "price": 81.02,
+            "change": 2.88,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4035.9,
-            "change": 38.9,
+            "price": 4022.9,
+            "change": 25.9,
             "direction": "up"
         },
         "SILVER": {
-            "price": 58.47,
-            "change": 0.83,
+            "price": 58.29,
+            "change": 0.66,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1494.58,
-            "change": -3.9,
+            "price": 1494.79,
+            "change": -3.69,
             "direction": "down"
         },
         "VIX": {
-            "price": 17.16,
-            "change": 2.13,
+            "price": 17.4,
+            "change": 0.24,
             "direction": "up"
         },
         "FED_RATE": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)교보15호스팩 - [기재정정]주요사항보고서(회사합병결정)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260714000267"
+            "title": "(코스닥)IBKS제23호스팩 - 주권매매거래정지 (상장폐지 사유발생)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260714900793"
         }
     ]
 }
