@@ -1,14 +1,14 @@
 {
-    "updated_at": "2026-07-14 22:59:31",
+    "updated_at": "2026-07-15 00:39:02",
     "macro": {
         "US30Y": {
-            "price": 5.09,
-            "change": -0.01,
+            "price": 5.07,
+            "change": -0.03,
             "direction": "down"
         },
         "US10Y": {
-            "price": 4.57,
-            "change": -0.04,
+            "price": 4.56,
+            "change": -0.05,
             "direction": "down"
         },
         "US2Y": {
@@ -17,28 +17,28 @@
             "direction": "down"
         },
         "WTI": {
-            "price": 80.08,
-            "change": 1.94,
+            "price": 78.55,
+            "change": 0.41,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4089.4,
-            "change": 92.4,
+            "price": 4092.2,
+            "change": 95.2,
             "direction": "up"
         },
         "SILVER": {
-            "price": 59.7,
-            "change": 2.07,
+            "price": 59.53,
+            "change": 1.9,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1486.35,
-            "change": -12.13,
+            "price": 1487.28,
+            "change": -11.2,
             "direction": "down"
         },
         "VIX": {
-            "price": 16.52,
-            "change": -0.64,
+            "price": 16.33,
+            "change": -0.83,
             "direction": "down"
         },
         "FED_RATE": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)IBKS제23호스팩 - 주권매매거래정지 (상장폐지 사유발생)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260714900793"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
