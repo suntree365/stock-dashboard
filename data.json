@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-07-14 12:11:59",
+    "updated_at": "2026-07-14 15:17:31",
     "macro": {
         "US30Y": {
             "price": 5.1,
@@ -17,23 +17,23 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 79.61,
-            "change": 8.2,
+            "price": 79.6,
+            "change": 1.46,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4020.7,
-            "change": -83.4,
-            "direction": "down"
+            "price": 4035.9,
+            "change": 38.9,
+            "direction": "up"
         },
         "SILVER": {
-            "price": 57.94,
-            "change": -1.87,
-            "direction": "down"
+            "price": 58.47,
+            "change": 0.83,
+            "direction": "up"
         },
         "USD_KRW": {
-            "price": 1489.71,
-            "change": -8.77,
+            "price": 1494.58,
+            "change": -3.9,
             "direction": "down"
         },
         "VIX": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)교보15호스팩 - [기재정정]주요사항보고서(회사합병결정)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260714000267"
         }
     ]
 }
