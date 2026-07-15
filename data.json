@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-07-15 14:39:04",
+    "updated_at": "2026-07-15 17:25:26",
     "macro": {
         "US30Y": {
             "price": 5.1,
@@ -17,29 +17,29 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 79.91,
-            "change": 0.57,
+            "price": 80.73,
+            "change": 1.39,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4031.7,
-            "change": -29.4,
+            "price": 4026.1,
+            "change": -35.0,
             "direction": "down"
         },
         "SILVER": {
-            "price": 58.63,
-            "change": -0.14,
+            "price": 58.46,
+            "change": -0.32,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1489.46,
-            "change": -8.24,
+            "price": 1491.8,
+            "change": -5.9,
             "direction": "down"
         },
         "VIX": {
-            "price": 17.16,
-            "change": 2.13,
-            "direction": "up"
+            "price": 16.38,
+            "change": -0.78,
+            "direction": "down"
         },
         "FED_RATE": {
             "price": 5.25,
@@ -136,8 +136,12 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)교보16호스팩 - 기업인수목적회사의임원선임결정",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260715900661"
+        },
+        {
+            "title": "(코스닥)교보16호스팩 - 주주명부폐쇄기간또는기준일설정",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260715900648"
         }
     ]
 }
