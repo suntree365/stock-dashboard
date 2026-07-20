@@ -1,44 +1,44 @@
 {
-    "updated_at": "2026-07-20 23:21:46",
+    "updated_at": "2026-07-21 01:36:30",
     "macro": {
         "US30Y": {
-            "price": 5.1,
-            "change": 0.03,
+            "price": 5.11,
+            "change": 0.05,
             "direction": "up"
         },
         "US10Y": {
-            "price": 4.58,
-            "change": 0.04,
+            "price": 4.6,
+            "change": 0.06,
             "direction": "up"
         },
         "US2Y": {
-            "price": 3.72,
-            "change": 0.01,
+            "price": 3.71,
+            "change": 0.0,
             "direction": "up"
         },
         "WTI": {
-            "price": 81.97,
-            "change": -0.52,
+            "price": 81.54,
+            "change": -0.95,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4003.9,
-            "change": -8.8,
-            "direction": "down"
+            "price": 4016.6,
+            "change": 3.9,
+            "direction": "up"
         },
         "SILVER": {
-            "price": 56.85,
-            "change": 0.82,
+            "price": 57.28,
+            "change": 1.24,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1480.68,
-            "change": 1.83,
-            "direction": "up"
+            "price": 1477.87,
+            "change": -0.98,
+            "direction": "down"
         },
         "VIX": {
-            "price": 18.12,
-            "change": -0.65,
+            "price": 17.42,
+            "change": -1.35,
             "direction": "down"
         },
         "FED_RATE": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)하나30호스팩 - 주권매매거래정지 (상장폐지 사유발생)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260720900762"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
