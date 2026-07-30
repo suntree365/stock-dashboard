@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-07-30 17:38:36",
+    "updated_at": "2026-07-30 20:14:01",
     "macro": {
         "US30Y": {
             "price": 5.14,
@@ -17,28 +17,28 @@
             "direction": "down"
         },
         "WTI": {
-            "price": 84.97,
-            "change": 0.51,
-            "direction": "up"
+            "price": 83.91,
+            "change": -0.55,
+            "direction": "down"
         },
         "GOLD": {
-            "price": 4123.6,
-            "change": 88.9,
+            "price": 4138.3,
+            "change": 103.6,
             "direction": "up"
         },
         "SILVER": {
-            "price": 57.94,
-            "change": 0.08,
+            "price": 58.26,
+            "change": 0.4,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1438.28,
-            "change": -14.88,
+            "price": 1432.64,
+            "change": -20.52,
             "direction": "down"
         },
         "VIX": {
-            "price": 19.76,
-            "change": -0.9,
+            "price": 19.52,
+            "change": -1.14,
             "direction": "down"
         },
         "FED_RATE": {
@@ -123,12 +123,8 @@
         ],
         "삼성전자": [
             {
-                "title": "(유가)삼성전자 - 특수관계인과의보험거래",
-                "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260730000518"
-            },
-            {
-                "title": "(유가)삼성전자 - 특수관계인에대한출자",
-                "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260730000505"
+                "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
+                "link": "#"
             }
         ],
         "케이피에이치공산업": [
