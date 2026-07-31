@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-07-31 09:08:44",
+    "updated_at": "2026-07-31 13:28:02",
     "macro": {
         "US30Y": {
             "price": 5.21,
@@ -17,23 +17,23 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 84.04,
-            "change": -0.42,
+            "price": 82.17,
+            "change": -1.42,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4164.6,
-            "change": 129.9,
+            "price": 4134.5,
+            "change": 34.4,
             "direction": "up"
         },
         "SILVER": {
-            "price": 59.35,
-            "change": 1.49,
-            "direction": "up"
+            "price": 58.7,
+            "change": -0.11,
+            "direction": "down"
         },
         "USD_KRW": {
-            "price": 1427.08,
-            "change": -15.2,
+            "price": 1438.58,
+            "change": -3.7,
             "direction": "down"
         },
         "VIX": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)교보15호스팩 - 기업인수목적회사관련합병취소ㆍ부인사실발생",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260731900453"
         }
     ]
 }
