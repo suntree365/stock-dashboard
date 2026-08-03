@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-03 13:37:11",
+    "updated_at": "2026-08-03 17:34:01",
     "macro": {
         "US30Y": {
             "price": 5.28,
@@ -17,29 +17,29 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 79.67,
-            "change": -5.0,
+            "price": 79.88,
+            "change": -4.79,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4123.4,
-            "change": 74.3,
+            "price": 4114.3,
+            "change": 65.2,
             "direction": "up"
         },
         "SILVER": {
-            "price": 58.56,
-            "change": 0.97,
+            "price": 58.4,
+            "change": 0.81,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1428.88,
-            "change": 8.28,
+            "price": 1428.98,
+            "change": 8.38,
             "direction": "up"
         },
         "VIX": {
-            "price": 15.99,
-            "change": -1.1,
-            "direction": "down"
+            "price": 16.17,
+            "change": 0.18,
+            "direction": "up"
         },
         "FED_RATE": {
             "price": 5.25,
@@ -136,8 +136,16 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)신한제16호스팩 - 주주명부폐쇄기간또는기준일설정",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260803900905"
+        },
+        {
+            "title": "(코스닥)신한제16호스팩 - 기업인수목적회사의임원선임결정",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260803900903"
+        },
+        {
+            "title": "(코스닥)신한제16호스팩 - 주주총회소집결의 (임시주주총회)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260803900864"
         }
     ]
 }
