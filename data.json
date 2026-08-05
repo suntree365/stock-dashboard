@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-05 08:08:49",
+    "updated_at": "2026-08-05 12:14:15",
     "macro": {
         "US30Y": {
             "price": 5.19,
@@ -17,24 +17,24 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 75.36,
-            "change": -4.98,
+            "price": 74.74,
+            "change": -5.6,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4133.3,
-            "change": 99.6,
+            "price": 4187.0,
+            "change": 153.3,
             "direction": "up"
         },
         "SILVER": {
-            "price": 59.71,
-            "change": 2.04,
+            "price": 60.92,
+            "change": 3.25,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1429.5,
-            "change": 1.0,
-            "direction": "up"
+            "price": 1421.38,
+            "change": -7.12,
+            "direction": "down"
         },
         "VIX": {
             "price": 16.5,
@@ -111,8 +111,8 @@
         ],
         "남성": [
             {
-                "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
-                "link": "#"
+                "title": "(유가)남성 - 연결재무제표기준영업(잠정)실적(공정공시)",
+                "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260805800253"
             }
         ],
         "현대제철": [
