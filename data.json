@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-05 15:34:05",
+    "updated_at": "2026-08-05 18:40:35",
     "macro": {
         "US30Y": {
             "price": 5.19,
@@ -17,29 +17,29 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 74.96,
-            "change": -0.81,
-            "direction": "down"
+            "price": 76.26,
+            "change": 0.49,
+            "direction": "up"
         },
         "GOLD": {
-            "price": 4225.6,
-            "change": 130.2,
+            "price": 4214.4,
+            "change": 119.0,
             "direction": "up"
         },
         "SILVER": {
-            "price": 61.74,
-            "change": 1.68,
+            "price": 61.65,
+            "change": 1.6,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1423.48,
-            "change": -5.02,
+            "price": 1423.88,
+            "change": -4.62,
             "direction": "down"
         },
         "VIX": {
-            "price": 16.5,
-            "change": 0.64,
-            "direction": "up"
+            "price": 16.15,
+            "change": -0.35,
+            "direction": "down"
         },
         "FED_RATE": {
             "price": 5.25,
@@ -111,8 +111,8 @@
         ],
         "남성": [
             {
-                "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
-                "link": "#"
+                "title": "(유가)남성 - 투자유의안내",
+                "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260805800841"
             }
         ],
         "현대제철": [
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)KB제29호스팩 - 반기보고서 (2026.06)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260805000250"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
