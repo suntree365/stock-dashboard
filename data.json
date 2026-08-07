@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-07 14:45:09",
+    "updated_at": "2026-08-07 16:25:39",
     "macro": {
         "US30Y": {
             "price": 5.21,
@@ -17,23 +17,23 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 78.33,
-            "change": 1.04,
+            "price": 77.73,
+            "change": 0.44,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4334.1,
-            "change": 92.1,
+            "price": 4350.6,
+            "change": 108.6,
             "direction": "up"
         },
         "SILVER": {
-            "price": 62.69,
-            "change": 1.25,
+            "price": 63.9,
+            "change": 2.47,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1418.98,
-            "change": -2.18,
+            "price": 1417.78,
+            "change": -3.38,
             "direction": "down"
         },
         "VIX": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)하나34호스팩 - 의결권대리행사권유참고서류",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260807000569"
         }
     ]
 }
