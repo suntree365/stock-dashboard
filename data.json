@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-07 09:08:03",
+    "updated_at": "2026-08-07 12:53:52",
     "macro": {
         "US30Y": {
             "price": 5.21,
@@ -17,24 +17,24 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 77.98,
-            "change": 2.76,
+            "price": 78.07,
+            "change": 2.85,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4311.0,
-            "change": 65.2,
+            "price": 4319.9,
+            "change": 74.1,
             "direction": "up"
         },
         "SILVER": {
-            "price": 61.93,
-            "change": -0.17,
-            "direction": "down"
+            "price": 62.51,
+            "change": 0.41,
+            "direction": "up"
         },
         "USD_KRW": {
-            "price": 1424.0,
-            "change": 2.84,
-            "direction": "up"
+            "price": 1420.18,
+            "change": -0.98,
+            "direction": "down"
         },
         "VIX": {
             "price": 15.15,
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)IBKS제24호스팩 - 반기보고서 (2026.06)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260807000018"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
