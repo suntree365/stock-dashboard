@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-10 15:14:16",
+    "updated_at": "2026-08-10 17:44:04",
     "macro": {
         "US30Y": {
             "price": 5.21,
@@ -17,29 +17,29 @@
             "direction": "down"
         },
         "WTI": {
-            "price": 78.17,
-            "change": -0.01,
-            "direction": "down"
+            "price": 78.87,
+            "change": 0.69,
+            "direction": "up"
         },
         "GOLD": {
-            "price": 4404.1,
-            "change": 63.4,
+            "price": 4408.5,
+            "change": 67.8,
             "direction": "up"
         },
         "SILVER": {
-            "price": 64.29,
-            "change": 0.95,
+            "price": 64.39,
+            "change": 1.06,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1416.58,
-            "change": -5.72,
+            "price": 1418.44,
+            "change": -3.86,
             "direction": "down"
         },
         "VIX": {
-            "price": 14.9,
-            "change": -0.25,
-            "direction": "down"
+            "price": 15.48,
+            "change": 0.58,
+            "direction": "up"
         },
         "FED_RATE": {
             "price": 5.25,
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)신영스팩10호 - 반기보고서 (2026.06)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260810000707"
         }
     ]
 }
