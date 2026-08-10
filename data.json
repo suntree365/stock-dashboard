@@ -1,14 +1,14 @@
 {
-    "updated_at": "2026-08-10 22:22:41",
+    "updated_at": "2026-08-11 00:05:06",
     "macro": {
         "US30Y": {
-            "price": 5.22,
-            "change": 0.01,
+            "price": 5.23,
+            "change": 0.02,
             "direction": "up"
         },
         "US10Y": {
-            "price": 4.67,
-            "change": 0.01,
+            "price": 4.68,
+            "change": 0.02,
             "direction": "up"
         },
         "US2Y": {
@@ -17,28 +17,28 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 79.6,
-            "change": 1.42,
+            "price": 80.81,
+            "change": 2.63,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4395.5,
-            "change": 54.8,
+            "price": 4402.9,
+            "change": 62.2,
             "direction": "up"
         },
         "SILVER": {
-            "price": 64.14,
-            "change": 0.8,
+            "price": 64.85,
+            "change": 1.51,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1417.31,
-            "change": -4.99,
+            "price": 1417.72,
+            "change": -4.58,
             "direction": "down"
         },
         "VIX": {
-            "price": 15.42,
-            "change": 0.52,
+            "price": 15.19,
+            "change": 0.29,
             "direction": "up"
         },
         "FED_RATE": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)신영스팩10호 - 반기보고서 (2026.06)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260810000707"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
