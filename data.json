@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-12 17:23:10",
+    "updated_at": "2026-08-12 19:12:57",
     "macro": {
         "US30Y": {
             "price": 5.24,
@@ -17,28 +17,28 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 83.73,
-            "change": 0.53,
-            "direction": "up"
+            "price": 83.06,
+            "change": -0.14,
+            "direction": "down"
         },
         "GOLD": {
-            "price": 4468.2,
-            "change": 85.2,
+            "price": 4474.5,
+            "change": 91.5,
             "direction": "up"
         },
         "SILVER": {
-            "price": 66.36,
-            "change": 1.59,
+            "price": 66.55,
+            "change": 1.78,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1416.54,
-            "change": -0.77,
+            "price": 1415.28,
+            "change": -2.03,
             "direction": "down"
         },
         "VIX": {
-            "price": 15.3,
-            "change": 0.02,
+            "price": 15.41,
+            "change": 0.13,
             "direction": "up"
         },
         "FED_RATE": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)삼성스팩10호 - 반기보고서 (2026.06)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260812000837"
+            "title": "(코스닥)대신밸런스제17호스팩 - 기타시장안내 (주권 상장폐지 우려 예고)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260812900988"
         }
     ]
 }
