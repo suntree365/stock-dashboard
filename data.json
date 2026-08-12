@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-12 13:52:39",
+    "updated_at": "2026-08-12 15:19:19",
     "macro": {
         "US30Y": {
             "price": 5.24,
@@ -17,23 +17,23 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 83.83,
-            "change": 0.63,
+            "price": 83.99,
+            "change": 0.79,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4457.9,
-            "change": 74.9,
+            "price": 4445.5,
+            "change": 62.5,
             "direction": "up"
         },
         "SILVER": {
-            "price": 65.44,
-            "change": 0.68,
+            "price": 65.32,
+            "change": 0.55,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1415.51,
-            "change": -1.8,
+            "price": 1415.74,
+            "change": -1.57,
             "direction": "down"
         },
         "VIX": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)삼성스팩11호 - 반기보고서 (2026.06)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260812000355"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
