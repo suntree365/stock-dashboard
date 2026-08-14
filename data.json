@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-14 08:49:40",
+    "updated_at": "2026-08-14 11:27:07",
     "macro": {
         "US30Y": {
             "price": 5.21,
@@ -17,24 +17,24 @@
             "direction": "down"
         },
         "WTI": {
-            "price": 81.29,
-            "change": -1.98,
+            "price": 80.95,
+            "change": -2.32,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4416.3,
-            "change": 7.4,
-            "direction": "up"
+            "price": 4370.5,
+            "change": -38.4,
+            "direction": "down"
         },
         "SILVER": {
-            "price": 64.78,
-            "change": -0.78,
+            "price": 64.03,
+            "change": -1.53,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1417.95,
-            "change": 1.49,
-            "direction": "up"
+            "price": 1414.12,
+            "change": -2.34,
+            "direction": "down"
         },
         "VIX": {
             "price": 14.63,
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)대신밸런스제20호스팩 - 반기보고서 (2026.06)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260814000879"
         }
     ]
 }
