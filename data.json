@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-14 13:53:06",
+    "updated_at": "2026-08-14 15:19:03",
     "macro": {
         "US30Y": {
             "price": 5.21,
@@ -17,23 +17,23 @@
             "direction": "down"
         },
         "WTI": {
-            "price": 81.31,
-            "change": -1.96,
-            "direction": "down"
+            "price": 82.0,
+            "change": 0.75,
+            "direction": "up"
         },
         "GOLD": {
-            "price": 4380.4,
-            "change": -28.5,
-            "direction": "down"
+            "price": 4386.7,
+            "change": 23.1,
+            "direction": "up"
         },
         "SILVER": {
-            "price": 64.1,
-            "change": -1.46,
+            "price": 64.29,
+            "change": -0.58,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1415.91,
-            "change": -0.55,
+            "price": 1415.48,
+            "change": -0.98,
             "direction": "down"
         },
         "VIX": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)키움제10호스팩 - 반기보고서 (2026.06)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260814001401"
+            "title": "(코스닥)KB제32호스팩 - 반기보고서 (2026.06)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260814002116"
         }
     ]
 }
