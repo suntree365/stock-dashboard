@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-14 19:10:35",
+    "updated_at": "2026-08-14 20:49:43",
     "macro": {
         "US30Y": {
             "price": 5.21,
@@ -17,28 +17,28 @@
             "direction": "down"
         },
         "WTI": {
-            "price": 82.05,
-            "change": 0.8,
+            "price": 81.53,
+            "change": 0.28,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4413.2,
-            "change": 49.6,
+            "price": 4418.4,
+            "change": 54.8,
             "direction": "up"
         },
         "SILVER": {
-            "price": 65.04,
-            "change": 0.17,
+            "price": 65.15,
+            "change": 0.28,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1411.85,
-            "change": -4.61,
+            "price": 1410.83,
+            "change": -5.63,
             "direction": "down"
         },
         "VIX": {
-            "price": 14.56,
-            "change": -0.07,
+            "price": 14.51,
+            "change": -0.12,
             "direction": "down"
         },
         "FED_RATE": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)유안타제15호스팩 - 기타시장안내(관리종목지정우려종목)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260814903794"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
