@@ -1,8 +1,8 @@
 {
-    "updated_at": "2026-08-15 13:37:22",
+    "updated_at": "2026-08-15 14:30:08",
     "macro": {
         "US30Y": {
-            "price": 5.27,
+            "price": 5.26,
             "change": 0.05,
             "direction": "up"
         },
