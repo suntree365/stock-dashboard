@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-16 12:05:53",
+    "updated_at": "2026-08-16 13:41:29",
     "macro": {
         "US30Y": {
             "price": 5.26,
@@ -22,13 +22,13 @@
             "direction": "up"
         },
         "GOLD": {
-            "price": 4380.4,
-            "change": 16.8,
+            "price": 4437.3,
+            "change": 73.7,
             "direction": "up"
         },
         "SILVER": {
-            "price": 64.99,
-            "change": 0.11,
+            "price": 65.11,
+            "change": 0.24,
             "direction": "up"
         },
         "USD_KRW": {
