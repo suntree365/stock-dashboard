@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-18 14:35:00",
+    "updated_at": "2026-08-18 15:53:46",
     "macro": {
         "US30Y": {
             "price": 5.26,
@@ -17,23 +17,23 @@
             "direction": "down"
         },
         "WTI": {
-            "price": 85.23,
-            "change": 0.73,
+            "price": 85.59,
+            "change": 1.09,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4451.1,
-            "change": 33.3,
+            "price": 4453.5,
+            "change": 35.7,
             "direction": "up"
         },
         "SILVER": {
-            "price": 65.29,
-            "change": -0.83,
+            "price": 65.35,
+            "change": -0.77,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1409.98,
-            "change": -5.39,
+            "price": 1412.28,
+            "change": -3.09,
             "direction": "down"
         },
         "VIX": {
