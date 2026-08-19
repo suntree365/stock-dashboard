@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-19 18:39:29",
+    "updated_at": "2026-08-19 19:39:01",
     "macro": {
         "US30Y": {
             "price": 5.28,
@@ -17,28 +17,28 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 84.89,
-            "change": -0.05,
-            "direction": "down"
+            "price": 85.12,
+            "change": 0.18,
+            "direction": "up"
         },
         "GOLD": {
-            "price": 4409.8,
-            "change": 43.8,
+            "price": 4423.3,
+            "change": 57.3,
             "direction": "up"
         },
         "SILVER": {
-            "price": 63.17,
-            "change": -0.77,
+            "price": 63.4,
+            "change": -0.54,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1393.18,
-            "change": -21.55,
+            "price": 1389.17,
+            "change": -25.56,
             "direction": "down"
         },
         "VIX": {
-            "price": 15.85,
-            "change": 0.01,
+            "price": 15.88,
+            "change": 0.04,
             "direction": "up"
         },
         "FED_RATE": {
@@ -111,8 +111,8 @@
         ],
         "남성": [
             {
-                "title": "(유가)남성 - [기재정정]자기주식처분결과보고서",
-                "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260819000366"
+                "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
+                "link": "#"
             }
         ],
         "현대제철": [
@@ -136,12 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)대신밸런스제17호스팩 - 주권매매거래정지 (상장폐지 사유발생)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260819900668"
-        },
-        {
-            "title": "(코스닥)하나31호스팩 - 기타시장안내(관리종목지정우려종목)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260819900607"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
