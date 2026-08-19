@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-19 19:39:01",
+    "updated_at": "2026-08-19 20:30:41",
     "macro": {
         "US30Y": {
             "price": 5.28,
@@ -17,29 +17,29 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 85.12,
-            "change": 0.18,
-            "direction": "up"
+            "price": 84.77,
+            "change": -0.17,
+            "direction": "down"
         },
         "GOLD": {
-            "price": 4423.3,
-            "change": 57.3,
+            "price": 4425.3,
+            "change": 59.3,
             "direction": "up"
         },
         "SILVER": {
-            "price": 63.4,
-            "change": -0.54,
+            "price": 63.5,
+            "change": -0.44,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1389.17,
-            "change": -25.56,
+            "price": 1391.25,
+            "change": -23.48,
             "direction": "down"
         },
         "VIX": {
-            "price": 15.88,
-            "change": 0.04,
-            "direction": "up"
+            "price": 15.76,
+            "change": -0.08,
+            "direction": "down"
         },
         "FED_RATE": {
             "price": 5.25,
@@ -136,8 +136,12 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)대신밸런스제17호스팩 - 주권매매거래정지 (상장폐지 사유발생)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260819900668"
+        },
+        {
+            "title": "(코스닥)하나31호스팩 - 기타시장안내(관리종목지정우려종목)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260819900607"
         }
     ]
 }
