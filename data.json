@@ -1,10 +1,10 @@
 {
-    "updated_at": "2026-08-19 14:35:57",
+    "updated_at": "2026-08-19 15:53:53",
     "macro": {
         "US30Y": {
-            "price": 5.28,
-            "change": -0.02,
-            "direction": "down"
+            "price": 5.31,
+            "change": 0.04,
+            "direction": "up"
         },
         "US10Y": {
             "price": 4.72,
@@ -13,27 +13,27 @@
         },
         "US2Y": {
             "price": 3.7,
-            "change": 0.0,
+            "change": 0.01,
             "direction": "up"
         },
         "WTI": {
-            "price": 84.65,
-            "change": -0.29,
+            "price": 84.51,
+            "change": -0.43,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4394.3,
-            "change": 28.3,
+            "price": 4396.7,
+            "change": 30.7,
             "direction": "up"
         },
         "SILVER": {
-            "price": 62.84,
-            "change": -1.1,
+            "price": 62.97,
+            "change": -0.98,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1396.98,
-            "change": -17.75,
+            "price": 1397.8,
+            "change": -16.93,
             "direction": "down"
         },
         "VIX": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)삼성스팩10호 - 기업인수목적회사의예치ㆍ신탁계약내용변경",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260819900363"
         }
     ]
 }
