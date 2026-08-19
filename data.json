@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-19 17:45:06",
+    "updated_at": "2026-08-19 18:39:29",
     "macro": {
         "US30Y": {
             "price": 5.28,
@@ -17,29 +17,29 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 84.4,
-            "change": -0.54,
+            "price": 84.89,
+            "change": -0.05,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4411.0,
-            "change": 45.0,
+            "price": 4409.8,
+            "change": 43.8,
             "direction": "up"
         },
         "SILVER": {
-            "price": 63.24,
-            "change": -0.7,
+            "price": 63.17,
+            "change": -0.77,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1394.14,
-            "change": -20.59,
+            "price": 1393.18,
+            "change": -21.55,
             "direction": "down"
         },
         "VIX": {
-            "price": 15.8,
-            "change": -0.04,
-            "direction": "down"
+            "price": 15.85,
+            "change": 0.01,
+            "direction": "up"
         },
         "FED_RATE": {
             "price": 5.25,
@@ -113,10 +113,6 @@
             {
                 "title": "(유가)남성 - [기재정정]자기주식처분결과보고서",
                 "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260819000366"
-            },
-            {
-                "title": "(유가)남성 - [기재정정]주요사항보고서(자기주식처분결정)",
-                "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260819000340"
             }
         ],
         "현대제철": [
@@ -140,8 +136,12 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)대신밸런스제17호스팩 - 주권매매거래정지 (상장폐지 사유발생)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260819900668"
+        },
+        {
+            "title": "(코스닥)하나31호스팩 - 기타시장안내(관리종목지정우려종목)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260819900607"
         }
     ]
 }
