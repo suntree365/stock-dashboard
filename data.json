@@ -1,44 +1,44 @@
 {
-    "updated_at": "2026-08-19 15:53:53",
+    "updated_at": "2026-08-19 16:44:04",
     "macro": {
         "US30Y": {
-            "price": 5.31,
-            "change": 0.04,
-            "direction": "up"
+            "price": 5.28,
+            "change": -0.02,
+            "direction": "down"
         },
         "US10Y": {
-            "price": 4.72,
-            "change": 0.03,
-            "direction": "up"
+            "price": 4.71,
+            "change": -0.02,
+            "direction": "down"
         },
         "US2Y": {
             "price": 3.7,
-            "change": 0.01,
+            "change": 0.0,
             "direction": "up"
         },
         "WTI": {
-            "price": 84.51,
-            "change": -0.43,
+            "price": 84.4,
+            "change": -0.54,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4396.7,
-            "change": 30.7,
+            "price": 4413.6,
+            "change": 47.6,
             "direction": "up"
         },
         "SILVER": {
-            "price": 62.97,
-            "change": -0.98,
+            "price": 63.31,
+            "change": -0.64,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1397.8,
-            "change": -16.93,
+            "price": 1398.44,
+            "change": -16.29,
             "direction": "down"
         },
         "VIX": {
-            "price": 15.84,
-            "change": 0.65,
+            "price": 15.91,
+            "change": 0.07,
             "direction": "up"
         },
         "FED_RATE": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)삼성스팩10호 - 기업인수목적회사의예치ㆍ신탁계약내용변경",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260819900363"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
