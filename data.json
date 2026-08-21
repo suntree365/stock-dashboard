@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-21 13:45:36",
+    "updated_at": "2026-08-21 14:37:56",
     "macro": {
         "US30Y": {
             "price": 5.24,
@@ -17,23 +17,23 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 86.48,
-            "change": -1.35,
+            "price": 86.45,
+            "change": -1.38,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4600.6,
-            "change": 84.3,
+            "price": 4587.7,
+            "change": 71.4,
             "direction": "up"
         },
         "SILVER": {
-            "price": 69.1,
-            "change": 1.07,
+            "price": 68.88,
+            "change": 0.85,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1381.44,
-            "change": -7.96,
+            "price": 1381.88,
+            "change": -7.52,
             "direction": "down"
         },
         "VIX": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)대신밸런스제17호스팩 - 기타경영사항(자율공시) (청산 관련 주요사항 안내)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260821900282"
         }
     ]
 }
