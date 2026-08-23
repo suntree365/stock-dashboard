@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-23 19:29:40",
+    "updated_at": "2026-08-23 20:26:01",
     "macro": {
         "US30Y": {
             "price": 5.28,
@@ -15,11 +15,6 @@
             "price": 3.71,
             "change": 0.01,
             "direction": "up"
-        },
-        "WTI": {
-            "price": 87.06,
-            "change": -0.77,
-            "direction": "down"
         },
         "GOLD": {
             "price": 4680.6,
