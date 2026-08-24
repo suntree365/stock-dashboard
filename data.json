@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-24 10:44:36",
+    "updated_at": "2026-08-24 12:09:44",
     "macro": {
         "US30Y": {
             "price": 5.28,
@@ -17,23 +17,23 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 85.36,
-            "change": -1.7,
+            "price": 85.69,
+            "change": -1.37,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4668.1,
-            "change": 44.0,
+            "price": 4699.9,
+            "change": 75.8,
             "direction": "up"
         },
         "SILVER": {
-            "price": 68.61,
-            "change": -0.86,
+            "price": 68.94,
+            "change": -0.53,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1383.48,
-            "change": -7.31,
+            "price": 1380.28,
+            "change": -10.51,
             "direction": "down"
         },
         "VIX": {
@@ -50,8 +50,8 @@
     "market_leaders": [
         {
             "name": "ShinpoongPharm",
-            "ratio": 17.61,
-            "amount": "135억"
+            "ratio": 29.93,
+            "amount": "215억"
         }
     ],
     "spac_ipo_list": [
