@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-24 17:55:11",
+    "updated_at": "2026-08-24 18:54:44",
     "macro": {
         "US30Y": {
             "price": 5.28,
@@ -17,28 +17,28 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 85.18,
-            "change": -1.88,
+            "price": 85.31,
+            "change": -1.75,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4701.1,
-            "change": 77.0,
+            "price": 4694.3,
+            "change": 70.2,
             "direction": "up"
         },
         "SILVER": {
-            "price": 68.96,
-            "change": -0.51,
+            "price": 68.74,
+            "change": -0.73,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1384.1,
-            "change": -6.69,
+            "price": 1382.26,
+            "change": -8.53,
             "direction": "down"
         },
         "VIX": {
-            "price": 15.88,
-            "change": 0.75,
+            "price": 15.89,
+            "change": 0.76,
             "direction": "up"
         },
         "FED_RATE": {
@@ -131,8 +131,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)신영스팩10호 - 기타시장안내 (주권 상장폐지 우려 예고)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260824900692"
         }
     ]
 }
