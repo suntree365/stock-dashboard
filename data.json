@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-25 08:27:14",
+    "updated_at": "2026-08-25 10:39:16",
     "macro": {
         "US30Y": {
             "price": 5.23,
@@ -17,23 +17,23 @@
             "direction": "down"
         },
         "WTI": {
-            "price": 85.15,
-            "change": -1.91,
+            "price": 85.32,
+            "change": -1.74,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4732.8,
-            "change": 108.7,
+            "price": 4727.7,
+            "change": 103.6,
             "direction": "up"
         },
         "SILVER": {
-            "price": 69.37,
-            "change": -0.1,
+            "price": 69.21,
+            "change": -0.25,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1382.4,
-            "change": -2.58,
+            "price": 1382.08,
+            "change": -2.9,
             "direction": "down"
         },
         "VIX": {
@@ -49,9 +49,14 @@
     },
     "market_leaders": [
         {
-            "name": "ShinpoongPharm",
-            "ratio": 29.93,
-            "amount": "218억"
+            "name": "신성델타테크",
+            "ratio": 18.4,
+            "amount": "2,840억"
+        },
+        {
+            "name": "남성",
+            "ratio": 15.2,
+            "amount": "2,100억"
         }
     ],
     "spac_ipo_list": [
