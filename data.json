@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-26 16:53:33",
+    "updated_at": "2026-08-26 17:51:42",
     "macro": {
         "US30Y": {
             "price": 5.17,
@@ -17,28 +17,28 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 80.05,
-            "change": -2.31,
+            "price": 79.84,
+            "change": -2.52,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4686.9,
-            "change": 48.8,
+            "price": 4684.0,
+            "change": 45.9,
             "direction": "up"
         },
         "SILVER": {
-            "price": 68.79,
-            "change": 0.15,
-            "direction": "up"
+            "price": 68.61,
+            "change": -0.03,
+            "direction": "down"
         },
         "USD_KRW": {
-            "price": 1384.55,
-            "change": 3.79,
+            "price": 1383.58,
+            "change": 2.82,
             "direction": "up"
         },
         "VIX": {
-            "price": 15.69,
-            "change": 0.24,
+            "price": 15.7,
+            "change": 0.25,
             "direction": "up"
         },
         "FED_RATE": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)교보15호스팩 - 기타시장안내 (주권 상장폐지 우려 예고)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260826900755"
         }
     ]
 }
