@@ -1,45 +1,45 @@
 {
-    "updated_at": "2026-08-31 14:00:41",
+    "updated_at": "2026-08-31 22:19:37",
     "macro": {
         "US30Y": {
-            "price": 5.21,
-            "change": 0.01,
+            "price": 5.25,
+            "change": 0.04,
             "direction": "up"
         },
         "US10Y": {
-            "price": 4.72,
-            "change": 0.05,
+            "price": 4.75,
+            "change": 0.03,
             "direction": "up"
         },
         "US2Y": {
             "price": 3.73,
-            "change": 0.05,
+            "change": 0.0,
             "direction": "up"
         },
         "WTI": {
-            "price": 85.21,
-            "change": 1.81,
+            "price": 85.58,
+            "change": 2.18,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4469.2,
-            "change": -8.9,
-            "direction": "down"
+            "price": 4496.5,
+            "change": 18.4,
+            "direction": "up"
         },
         "SILVER": {
-            "price": 66.99,
-            "change": -0.01,
-            "direction": "down"
+            "price": 67.49,
+            "change": 0.49,
+            "direction": "up"
         },
         "USD_KRW": {
-            "price": 1375.09,
-            "change": -5.36,
+            "price": 1368.61,
+            "change": -11.84,
             "direction": "down"
         },
         "VIX": {
-            "price": 14.43,
-            "change": -0.08,
-            "direction": "down"
+            "price": 15.37,
+            "change": 0.94,
+            "direction": "up"
         },
         "FED_RATE": {
             "price": 5.25,
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)신영스팩10호 - 주권매매거래정지 (상장폐지 사유발생)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260831900942"
         }
     ]
 }
