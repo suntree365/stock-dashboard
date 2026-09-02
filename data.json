@@ -1,15 +1,15 @@
 {
-    "updated_at": "2026-09-02 23:14:42",
+    "updated_at": "2026-09-03 03:30:26",
     "macro": {
         "US30Y": {
-            "price": 5.25,
-            "change": -0.02,
-            "direction": "down"
+            "price": 5.27,
+            "change": 0.0,
+            "direction": "up"
         },
         "US10Y": {
-            "price": 4.78,
-            "change": -0.01,
-            "direction": "down"
+            "price": 4.8,
+            "change": 0.0,
+            "direction": "up"
         },
         "US2Y": {
             "price": 3.77,
@@ -17,28 +17,28 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 89.14,
-            "change": -1.08,
-            "direction": "down"
+            "price": 91.13,
+            "change": 0.91,
+            "direction": "up"
         },
         "GOLD": {
-            "price": 4431.5,
-            "change": 83.5,
+            "price": 4424.0,
+            "change": 76.0,
             "direction": "up"
         },
         "SILVER": {
-            "price": 66.0,
-            "change": 1.38,
+            "price": 65.71,
+            "change": 1.1,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1358.8,
-            "change": -7.82,
+            "price": 1358.52,
+            "change": -8.1,
             "direction": "down"
         },
         "VIX": {
-            "price": 15.8,
-            "change": -0.54,
+            "price": 15.24,
+            "change": -1.1,
             "direction": "down"
         },
         "FED_RATE": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)교보15호스팩 - 주권매매거래정지 (상장폐지 사유발생)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260902900620"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
