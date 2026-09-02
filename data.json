@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-09-02 13:05:01",
+    "updated_at": "2026-09-02 18:23:57",
     "macro": {
         "US30Y": {
             "price": 5.27,
@@ -17,28 +17,28 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 90.22,
-            "change": 4.46,
+            "price": 90.39,
+            "change": 0.17,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4348.0,
-            "change": -83.1,
-            "direction": "down"
+            "price": 4362.2,
+            "change": 14.2,
+            "direction": "up"
         },
         "SILVER": {
-            "price": 64.62,
-            "change": -1.6,
+            "price": 64.45,
+            "change": -0.17,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1370.08,
-            "change": 3.46,
-            "direction": "up"
+            "price": 1364.18,
+            "change": -2.44,
+            "direction": "down"
         },
         "VIX": {
-            "price": 16.34,
-            "change": 1.42,
+            "price": 16.6,
+            "change": 0.26,
             "direction": "up"
         },
         "FED_RATE": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)교보15호스팩 - 주권매매거래정지 (상장폐지 사유발생)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260902900620"
         }
     ]
 }
