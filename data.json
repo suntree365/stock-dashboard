@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-09-03 08:57:23",
+    "updated_at": "2026-09-03 13:11:04",
     "macro": {
         "US30Y": {
             "price": 5.27,
@@ -17,23 +17,23 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 90.61,
-            "change": 0.39,
+            "price": 91.02,
+            "change": 0.01,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4434.3,
-            "change": 86.3,
+            "price": 4477.3,
+            "change": 111.0,
             "direction": "up"
         },
         "SILVER": {
-            "price": 65.99,
-            "change": 1.37,
+            "price": 66.64,
+            "change": 1.92,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1359.23,
-            "change": -13.63,
+            "price": 1358.08,
+            "change": -14.78,
             "direction": "down"
         },
         "VIX": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)교보15호스팩 - 기타경영사항(자율공시) (청산 관련 주요사항 안내)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260903900097"
         }
     ]
 }
