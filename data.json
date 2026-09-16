@@ -1,44 +1,44 @@
 {
-    "updated_at": "2026-09-16 22:20:56",
+    "updated_at": "2026-09-17 03:04:21",
     "macro": {
         "US30Y": {
-            "price": 5.35,
-            "change": -0.01,
+            "price": 5.33,
+            "change": -0.04,
             "direction": "down"
         },
         "US10Y": {
-            "price": 4.98,
-            "change": -0.02,
+            "price": 4.95,
+            "change": -0.05,
             "direction": "down"
         },
         "US2Y": {
-            "price": 3.95,
-            "change": -0.01,
+            "price": 3.93,
+            "change": -0.03,
             "direction": "down"
         },
         "WTI": {
-            "price": 103.81,
-            "change": -2.02,
+            "price": 102.28,
+            "change": -3.55,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4391.6,
-            "change": 58.8,
+            "price": 4391.4,
+            "change": 58.6,
             "direction": "up"
         },
         "SILVER": {
-            "price": 65.08,
-            "change": 1.85,
+            "price": 64.93,
+            "change": 1.69,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1368.1,
-            "change": 22.49,
+            "price": 1368.03,
+            "change": 22.42,
             "direction": "up"
         },
         "VIX": {
-            "price": 16.78,
-            "change": -0.42,
+            "price": 16.87,
+            "change": -0.33,
             "direction": "down"
         },
         "FED_RATE": {
@@ -136,12 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)유안타제15호스팩 - 기타시장안내 (주권 상장폐지 우려 예고)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260916900642"
-        },
-        {
-            "title": "(코스닥)SK증권제11호스팩 - 기타시장안내 (주권 상장폐지 우려 예고)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260916900567"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
