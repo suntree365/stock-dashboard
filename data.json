@@ -1,9 +1,9 @@
 {
-    "updated_at": "2026-09-18 23:17:44",
+    "updated_at": "2026-09-19 03:15:11",
     "macro": {
         "US30Y": {
-            "price": 5.33,
-            "change": 0.03,
+            "price": 5.34,
+            "change": 0.04,
             "direction": "up"
         },
         "US10Y": {
@@ -13,33 +13,33 @@
         },
         "US2Y": {
             "price": 3.98,
-            "change": 0.01,
+            "change": 0.02,
             "direction": "up"
         },
         "WTI": {
-            "price": 97.59,
-            "change": -4.32,
+            "price": 95.92,
+            "change": -5.99,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4392.5,
-            "change": -7.2,
-            "direction": "down"
+            "price": 4431.0,
+            "change": 31.3,
+            "direction": "up"
         },
         "SILVER": {
-            "price": 66.77,
-            "change": 1.3,
+            "price": 67.23,
+            "change": 1.76,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1389.6,
-            "change": 13.0,
+            "price": 1385.77,
+            "change": 9.17,
             "direction": "up"
         },
         "VIX": {
-            "price": 15.47,
-            "change": 0.03,
-            "direction": "up"
+            "price": 15.24,
+            "change": -0.2,
+            "direction": "down"
         },
         "FED_RATE": {
             "price": 5.25,
@@ -123,8 +123,8 @@
         ],
         "삼성전자": [
             {
-                "title": "(유가)삼성전자 - 최대주주등소유주식변동신고서",
-                "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260918800754"
+                "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
+                "link": "#"
             }
         ],
         "케이피에이치공산업": [
