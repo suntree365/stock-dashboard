@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-09-29 06:46:44",
+    "updated_at": "2026-09-29 10:42:43",
     "macro": {
         "US30Y": {
             "price": 5.56,
@@ -17,13 +17,13 @@
             "direction": "down"
         },
         "WTI": {
-            "price": 93.29,
-            "change": 0.88,
+            "price": 93.61,
+            "change": 1.2,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4148.5,
-            "change": -172.7,
+            "price": 4160.7,
+            "change": -160.5,
             "direction": "down"
         },
         "SILVER": {
@@ -32,9 +32,9 @@
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1359.8,
-            "change": -7.56,
-            "direction": "down"
+            "price": 1359.88,
+            "change": 5.37,
+            "direction": "up"
         },
         "VIX": {
             "price": 16.07,
@@ -136,8 +136,12 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)한화플러스제5호스팩 - 주주총회소집결의 (임시주주총회)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260929900166"
+        },
+        {
+            "title": "(코스닥)유안타제15호스팩 - 기타경영사항(자율공시)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20260929900123"
         }
     ]
 }
