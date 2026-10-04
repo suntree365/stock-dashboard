@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-10-04 08:42:03",
+    "updated_at": "2026-10-04 14:25:19",
     "macro": {
         "US30Y": {
             "price": 5.63,
@@ -27,8 +27,8 @@
             "direction": "down"
         },
         "SILVER": {
-            "price": 59.98,
-            "change": -0.75,
+            "price": 60.42,
+            "change": -0.31,
             "direction": "down"
         },
         "USD_KRW": {
