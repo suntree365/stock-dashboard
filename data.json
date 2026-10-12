@@ -1,44 +1,44 @@
 {
-    "updated_at": "2026-10-12 17:57:36",
+    "updated_at": "2026-10-13 03:54:22",
     "macro": {
         "US30Y": {
             "price": 5.6,
-            "change": -0.01,
+            "change": -0.0,
             "direction": "down"
         },
         "US10Y": {
             "price": 5.24,
-            "change": 0.01,
-            "direction": "up"
+            "change": -0.0,
+            "direction": "down"
         },
         "US2Y": {
-            "price": 4.06,
-            "change": 0.01,
-            "direction": "up"
+            "price": 4.05,
+            "change": -0.01,
+            "direction": "down"
         },
         "WTI": {
-            "price": 91.95,
-            "change": 0.1,
+            "price": 93.62,
+            "change": 1.77,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4198.1,
-            "change": -18.2,
+            "price": 4192.2,
+            "change": -24.1,
             "direction": "down"
         },
         "SILVER": {
-            "price": 60.84,
-            "change": 0.17,
-            "direction": "up"
+            "price": 60.44,
+            "change": -0.23,
+            "direction": "down"
         },
         "USD_KRW": {
-            "price": 1331.74,
-            "change": -11.25,
+            "price": 1334.26,
+            "change": -8.73,
             "direction": "down"
         },
         "VIX": {
-            "price": 15.43,
-            "change": 0.59,
+            "price": 15.25,
+            "change": 0.41,
             "direction": "up"
         },
         "FED_RATE": {
@@ -123,8 +123,8 @@
         ],
         "삼성전자": [
             {
-                "title": "(유가)삼성전자 - 자기주식취득결과보고서",
-                "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261012000421"
+                "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
+                "link": "#"
             }
         ],
         "케이피에이치공산업": [
