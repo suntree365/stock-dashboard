@@ -1,44 +1,44 @@
 {
-    "updated_at": "2026-10-13 18:12:27",
+    "updated_at": "2026-10-14 02:28:49",
     "macro": {
         "US30Y": {
-            "price": 5.6,
-            "change": -0.0,
+            "price": 5.57,
+            "change": -0.03,
             "direction": "down"
         },
         "US10Y": {
-            "price": 5.24,
-            "change": -0.0,
-            "direction": "down"
-        },
-        "US2Y": {
-            "price": 4.05,
+            "price": 5.23,
             "change": -0.01,
             "direction": "down"
         },
+        "US2Y": {
+            "price": 4.06,
+            "change": 0.01,
+            "direction": "up"
+        },
         "WTI": {
-            "price": 92.13,
-            "change": -1.61,
-            "direction": "down"
+            "price": 94.32,
+            "change": 0.58,
+            "direction": "up"
         },
         "GOLD": {
-            "price": 4210.7,
-            "change": 20.1,
-            "direction": "up"
+            "price": 4180.1,
+            "change": -10.5,
+            "direction": "down"
         },
         "SILVER": {
-            "price": 60.73,
-            "change": 0.59,
-            "direction": "up"
+            "price": 59.53,
+            "change": -0.61,
+            "direction": "down"
         },
         "USD_KRW": {
-            "price": 1340.78,
-            "change": -2.21,
+            "price": 1340.55,
+            "change": -2.44,
             "direction": "down"
         },
         "VIX": {
-            "price": 15.41,
-            "change": 0.2,
+            "price": 15.5,
+            "change": 0.29,
             "direction": "up"
         },
         "FED_RATE": {
@@ -123,8 +123,8 @@
         ],
         "삼성전자": [
             {
-                "title": "(유가)삼성전자 - 최대주주등소유주식변동신고서",
-                "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261013800651"
+                "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
+                "link": "#"
             }
         ],
         "케이피에이치공산업": [
