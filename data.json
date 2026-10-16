@@ -1,45 +1,45 @@
 {
-    "updated_at": "2026-10-16 21:15:41",
+    "updated_at": "2026-10-17 02:16:44",
     "macro": {
         "US30Y": {
-            "price": 5.43,
-            "change": -0.1,
-            "direction": "down"
-        },
-        "US10Y": {
-            "price": 5.09,
-            "change": -0.1,
-            "direction": "down"
-        },
-        "US2Y": {
-            "price": 4.09,
-            "change": 0.0,
+            "price": 5.45,
+            "change": 0.02,
             "direction": "up"
         },
-        "WTI": {
-            "price": 96.39,
-            "change": -1.58,
+        "US10Y": {
+            "price": 5.12,
+            "change": 0.03,
+            "direction": "up"
+        },
+        "US2Y": {
+            "price": 4.07,
+            "change": -0.01,
             "direction": "down"
         },
+        "WTI": {
+            "price": 98.7,
+            "change": 0.73,
+            "direction": "up"
+        },
         "GOLD": {
-            "price": 4195.3,
-            "change": 25.2,
+            "price": 4178.9,
+            "change": 8.8,
             "direction": "up"
         },
         "SILVER": {
-            "price": 57.97,
-            "change": 1.13,
+            "price": 57.27,
+            "change": 0.43,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1331.64,
-            "change": -7.71,
+            "price": 1334.91,
+            "change": -4.44,
             "direction": "down"
         },
         "VIX": {
-            "price": 16.07,
-            "change": -0.39,
-            "direction": "down"
+            "price": 18.85,
+            "change": 2.39,
+            "direction": "up"
         },
         "FED_RATE": {
             "price": 5.25,
@@ -136,12 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)SK증권제12호스팩 - 기타시장안내(관리종목지정우려종목)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261016900831"
-        },
-        {
-            "title": "(코스닥)유안타제16호스팩 - 기타시장안내(관리종목지정우려종목)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261016900652"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
