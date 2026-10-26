@@ -1,45 +1,45 @@
 {
-    "updated_at": "2026-10-26 14:54:34",
+    "updated_at": "2026-10-26 21:40:11",
     "macro": {
         "US30Y": {
-            "price": 5.32,
-            "change": 0.03,
-            "direction": "up"
+            "price": 5.31,
+            "change": -0.0,
+            "direction": "down"
         },
         "US10Y": {
             "price": 4.99,
-            "change": 0.03,
-            "direction": "up"
-        },
-        "US2Y": {
-            "price": 4.03,
             "change": 0.01,
             "direction": "up"
         },
+        "US2Y": {
+            "price": 4.04,
+            "change": 0.0,
+            "direction": "up"
+        },
         "WTI": {
-            "price": 101.18,
-            "change": -2.09,
+            "price": 101.05,
+            "change": -2.22,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4024.9,
-            "change": 17.0,
+            "price": 4034.3,
+            "change": 26.4,
             "direction": "up"
         },
         "SILVER": {
-            "price": 54.26,
-            "change": 0.55,
+            "price": 54.25,
+            "change": 0.54,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1321.88,
-            "change": -4.11,
+            "price": 1324.27,
+            "change": -1.72,
             "direction": "down"
         },
         "VIX": {
-            "price": 19.45,
-            "change": 0.42,
-            "direction": "up"
+            "price": 19.04,
+            "change": -0.41,
+            "direction": "down"
         },
         "FED_RATE": {
             "price": 5.25,
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)IBKS제24호스팩 - [기재정정]주주총회소집결의 (임시주주총회)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261026900245"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
