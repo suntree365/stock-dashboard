@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-10-26 09:01:10",
+    "updated_at": "2026-10-26 14:54:34",
     "macro": {
         "US30Y": {
             "price": 5.32,
@@ -17,23 +17,23 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 102.18,
-            "change": -1.09,
+            "price": 101.18,
+            "change": -2.09,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4007.7,
-            "change": -0.2,
-            "direction": "down"
+            "price": 4024.9,
+            "change": 17.0,
+            "direction": "up"
         },
         "SILVER": {
-            "price": 53.96,
-            "change": 0.24,
+            "price": 54.26,
+            "change": 0.55,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1323.58,
-            "change": -2.41,
+            "price": 1321.88,
+            "change": -4.11,
             "direction": "down"
         },
         "VIX": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)IBKS제24호스팩 - [기재정정]주주총회소집결의 (임시주주총회)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261026900245"
         }
     ]
 }
