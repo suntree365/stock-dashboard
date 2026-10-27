@@ -1,44 +1,44 @@
 {
-    "updated_at": "2026-10-27 19:18:24",
+    "updated_at": "2026-10-28 01:19:46",
     "macro": {
         "US30Y": {
             "price": 5.3,
-            "change": -0.01,
-            "direction": "down"
+            "change": 0.0,
+            "direction": "up"
         },
         "US10Y": {
             "price": 4.99,
-            "change": -0.0,
-            "direction": "down"
-        },
-        "US2Y": {
-            "price": 4.03,
-            "change": -0.01,
-            "direction": "down"
-        },
-        "WTI": {
-            "price": 102.01,
-            "change": 0.25,
+            "change": 0.0,
             "direction": "up"
         },
-        "GOLD": {
-            "price": 4012.5,
-            "change": -25.9,
+        "US2Y": {
+            "price": 4.04,
+            "change": 0.01,
+            "direction": "up"
+        },
+        "WTI": {
+            "price": 100.06,
+            "change": -1.7,
             "direction": "down"
+        },
+        "GOLD": {
+            "price": 4072.6,
+            "change": 34.2,
+            "direction": "up"
         },
         "SILVER": {
-            "price": 53.33,
-            "change": -0.77,
-            "direction": "down"
+            "price": 54.47,
+            "change": 0.36,
+            "direction": "up"
         },
         "USD_KRW": {
-            "price": 1328.24,
-            "change": 6.48,
+            "price": 1326.25,
+            "change": 4.49,
             "direction": "up"
         },
         "VIX": {
-            "price": 18.25,
-            "change": -0.14,
+            "price": 17.55,
+            "change": -0.84,
             "direction": "down"
         },
         "FED_RATE": {
@@ -136,16 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)한화플러스제5호스팩 - [기재정정]주요사항보고서(회사합병결정)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261027000380"
-        },
-        {
-            "title": "(코스닥)한화플러스제5호스팩 - [기재정정]주주총회소집결의 (임시주주총회)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261027900653"
-        },
-        {
-            "title": "(코스닥)IBKS제25호스팩 - [기재정정]분기보고서 (2026.09)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261027000360"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
