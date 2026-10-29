@@ -1,44 +1,44 @@
 {
-    "updated_at": "2026-10-29 15:53:16",
+    "updated_at": "2026-10-29 23:02:13",
     "macro": {
         "US30Y": {
-            "price": 5.36,
-            "change": 0.06,
-            "direction": "up"
-        },
-        "US10Y": {
-            "price": 5.05,
-            "change": 0.05,
-            "direction": "up"
-        },
-        "US2Y": {
-            "price": 3.99,
+            "price": 5.31,
             "change": -0.05,
             "direction": "down"
         },
+        "US10Y": {
+            "price": 4.97,
+            "change": -0.07,
+            "direction": "down"
+        },
+        "US2Y": {
+            "price": 3.99,
+            "change": -0.01,
+            "direction": "down"
+        },
         "WTI": {
-            "price": 101.6,
-            "change": -1.18,
+            "price": 100.07,
+            "change": -2.71,
             "direction": "down"
         },
         "GOLD": {
-            "price": 4042.8,
-            "change": -8.8,
+            "price": 4037.8,
+            "change": -13.8,
             "direction": "down"
         },
         "SILVER": {
-            "price": 52.85,
-            "change": -0.61,
+            "price": 52.21,
+            "change": -1.25,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1336.0,
-            "change": 9.19,
+            "price": 1338.18,
+            "change": 11.37,
             "direction": "up"
         },
         "VIX": {
-            "price": 16.91,
-            "change": -0.61,
+            "price": 16.88,
+            "change": -0.03,
             "direction": "down"
         },
         "FED_RATE": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)신한제12호스팩 - 기타시장안내 (주권 상장폐지 우려 예고)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261029900812"
         }
     ]
 }
