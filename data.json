@@ -1,44 +1,44 @@
 {
-    "updated_at": "2026-10-30 15:56:24",
+    "updated_at": "2026-10-30 22:58:15",
     "macro": {
         "US30Y": {
-            "price": 5.33,
+            "price": 5.3,
             "change": -0.03,
             "direction": "down"
         },
         "US10Y": {
-            "price": 4.99,
-            "change": -0.06,
+            "price": 4.93,
+            "change": -0.05,
             "direction": "down"
         },
         "US2Y": {
-            "price": 4.0,
-            "change": 0.0,
-            "direction": "up"
+            "price": 3.98,
+            "change": -0.02,
+            "direction": "down"
         },
         "WTI": {
-            "price": 102.93,
-            "change": 0.93,
+            "price": 103.77,
+            "change": 1.77,
             "direction": "up"
         },
         "GOLD": {
-            "price": 3994.8,
-            "change": -36.6,
+            "price": 3934.2,
+            "change": -97.2,
             "direction": "down"
         },
         "SILVER": {
-            "price": 50.85,
-            "change": -1.34,
+            "price": 49.52,
+            "change": -2.67,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1334.2,
-            "change": -6.14,
+            "price": 1332.2,
+            "change": -8.14,
             "direction": "down"
         },
         "VIX": {
-            "price": 17.2,
-            "change": 0.29,
+            "price": 18.92,
+            "change": 1.72,
             "direction": "up"
         },
         "FED_RATE": {
@@ -136,8 +136,16 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)키움제10호스팩 - 주요사항보고서(회사합병결정)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261030000754"
+        },
+        {
+            "title": "(코스닥)디비금융제13호스팩 - 기업인수목적회사의임원사임",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261030901407"
+        },
+        {
+            "title": "(코스닥)키움제10호스팩 - 주권매매거래정지 (SPAC 합병(예비심사청구대상))",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261030901414"
         }
     ]
 }
