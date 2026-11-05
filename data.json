@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-05 12:21:55",
+    "updated_at": "2026-11-05 21:03:42",
     "macro": {
         "US30Y": {
             "price": 5.28,
@@ -17,29 +17,29 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 87.18,
-            "change": -8.91,
-            "direction": "down"
+            "price": 89.4,
+            "change": 1.28,
+            "direction": "up"
         },
         "GOLD": {
-            "price": 4142.7,
-            "change": 202.3,
+            "price": 4142.8,
+            "change": 69.8,
             "direction": "up"
         },
         "SILVER": {
-            "price": 53.18,
-            "change": 3.59,
+            "price": 52.81,
+            "change": 0.69,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1343.78,
-            "change": 0.88,
+            "price": 1343.98,
+            "change": 1.08,
             "direction": "up"
         },
         "VIX": {
-            "price": 16.61,
-            "change": -4.22,
-            "direction": "down"
+            "price": 16.8,
+            "change": 0.19,
+            "direction": "up"
         },
         "FED_RATE": {
             "price": 5.25,
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)IBKS제24호스팩 - 주주총회소집공고",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261105000051"
+            "title": "(코스닥)신한제12호스팩 - 주권매매거래정지 (상장폐지 사유발생)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261105900985"
         }
     ]
 }
