@@ -1,44 +1,44 @@
 {
-    "updated_at": "2026-11-05 21:03:42",
+    "updated_at": "2026-11-06 05:31:51",
     "macro": {
         "US30Y": {
-            "price": 5.28,
-            "change": -0.04,
+            "price": 5.25,
+            "change": -0.03,
             "direction": "down"
         },
         "US10Y": {
-            "price": 4.89,
+            "price": 4.84,
             "change": -0.06,
             "direction": "down"
         },
         "US2Y": {
-            "price": 4.03,
-            "change": 0.0,
-            "direction": "up"
+            "price": 3.99,
+            "change": -0.04,
+            "direction": "down"
         },
         "WTI": {
-            "price": 89.4,
-            "change": 1.28,
+            "price": 90.8,
+            "change": 2.68,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4142.8,
-            "change": 69.8,
+            "price": 4116.2,
+            "change": 43.2,
             "direction": "up"
         },
         "SILVER": {
-            "price": 52.81,
-            "change": 0.69,
+            "price": 52.22,
+            "change": 0.1,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1343.98,
-            "change": 1.08,
+            "price": 1356.21,
+            "change": 13.31,
             "direction": "up"
         },
         "VIX": {
-            "price": 16.8,
-            "change": 0.19,
+            "price": 26.04,
+            "change": 9.43,
             "direction": "up"
         },
         "FED_RATE": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)신한제12호스팩 - 주권매매거래정지 (상장폐지 사유발생)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261105900985"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
