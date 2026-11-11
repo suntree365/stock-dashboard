@@ -1,44 +1,44 @@
 {
-    "updated_at": "2026-11-11 19:36:37",
+    "updated_at": "2026-11-12 03:31:03",
     "macro": {
         "US30Y": {
-            "price": 5.35,
-            "change": 0.09,
+            "price": 5.36,
+            "change": 0.01,
             "direction": "up"
         },
         "US10Y": {
-            "price": 4.98,
-            "change": 0.12,
+            "price": 5.0,
+            "change": 0.02,
             "direction": "up"
         },
         "US2Y": {
-            "price": 4.11,
-            "change": 0.08,
+            "price": 4.12,
+            "change": 0.0,
             "direction": "up"
         },
         "WTI": {
-            "price": 87.2,
-            "change": 1.16,
+            "price": 87.09,
+            "change": 1.05,
             "direction": "up"
         },
         "GOLD": {
-            "price": 4057.8,
-            "change": 27.6,
-            "direction": "up"
+            "price": 3998.6,
+            "change": -31.6,
+            "direction": "down"
         },
         "SILVER": {
-            "price": 53.02,
-            "change": 1.92,
+            "price": 52.03,
+            "change": 0.93,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1337.46,
-            "change": -6.38,
+            "price": 1338.5,
+            "change": -5.34,
             "direction": "down"
         },
         "VIX": {
-            "price": 18.7,
-            "change": -0.76,
+            "price": 17.51,
+            "change": -1.95,
             "direction": "down"
         },
         "FED_RATE": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)하나33호스팩 - 기타시장안내 (주권 상장폐지 우려 예고)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261111900764"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
