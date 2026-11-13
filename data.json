@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-13 09:01:56",
+    "updated_at": "2026-11-13 16:43:39",
     "macro": {
         "US30Y": {
             "price": 5.43,
@@ -8,7 +8,7 @@
         },
         "US10Y": {
             "price": 5.1,
-            "change": 0.1,
+            "change": 0.11,
             "direction": "up"
         },
         "US2Y": {
@@ -17,24 +17,24 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 88.78,
-            "change": 2.25,
+            "price": 88.84,
+            "change": 0.1,
             "direction": "up"
         },
         "GOLD": {
-            "price": 3884.9,
-            "change": -115.6,
-            "direction": "down"
+            "price": 3898.4,
+            "change": 13.1,
+            "direction": "up"
         },
         "SILVER": {
-            "price": 50.01,
-            "change": -1.87,
+            "price": 49.97,
+            "change": -0.0,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1333.98,
-            "change": -2.28,
-            "direction": "down"
+            "price": 1337.02,
+            "change": 0.76,
+            "direction": "up"
         },
         "VIX": {
             "price": 18.7,
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)디비금융스팩12호 - 분기보고서 (2026.09)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261113000032"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
