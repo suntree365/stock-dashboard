@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-18 12:31:43",
+    "updated_at": "2026-11-18 21:52:45",
     "macro": {
         "US30Y": {
             "price": 5.46,
@@ -17,29 +17,29 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 85.24,
-            "change": -0.48,
+            "price": 84.17,
+            "change": -1.84,
             "direction": "down"
         },
         "GOLD": {
-            "price": 3789.3,
-            "change": -63.7,
+            "price": 3754.1,
+            "change": -110.1,
             "direction": "down"
         },
         "SILVER": {
-            "price": 45.74,
-            "change": -1.05,
+            "price": 45.27,
+            "change": -2.02,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1331.18,
-            "change": -4.49,
+            "price": 1332.38,
+            "change": -3.29,
             "direction": "down"
         },
         "VIX": {
-            "price": 25.46,
-            "change": 2.55,
-            "direction": "up"
+            "price": 24.54,
+            "change": -0.92,
+            "direction": "down"
         },
         "FED_RATE": {
             "price": 5.25,
@@ -136,8 +136,12 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)교보17호스팩 - 기업인수목적회사의예치ㆍ신탁계약내용변경",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261118900075"
+            "title": "(코스닥)하나33호스팩 - 주권매매거래정지 (상장폐지 사유발생)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261118900641"
+        },
+        {
+            "title": "(코스닥)유안타제16호스팩 - 기타시장안내 (주권 상장폐지 우려 예고)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261118900572"
         }
     ]
 }
