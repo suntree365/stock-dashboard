@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-20 11:55:18",
+    "updated_at": "2026-11-20 20:12:53",
     "macro": {
         "US30Y": {
             "price": 5.4,
@@ -17,28 +17,28 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 83.02,
-            "change": -0.24,
+            "price": 81.62,
+            "change": -1.59,
             "direction": "down"
         },
         "GOLD": {
-            "price": 3551.2,
-            "change": -190.7,
+            "price": 3589.9,
+            "change": -95.6,
             "direction": "down"
         },
         "SILVER": {
-            "price": 41.89,
-            "change": -3.11,
+            "price": 42.53,
+            "change": -1.79,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1338.98,
-            "change": 8.58,
+            "price": 1338.76,
+            "change": 8.36,
             "direction": "up"
         },
         "VIX": {
-            "price": 28.44,
-            "change": 3.88,
+            "price": 28.89,
+            "change": 0.45,
             "direction": "up"
         },
         "FED_RATE": {
@@ -136,8 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)미래에셋비전스팩8호 - 기업인수목적회사의예치ㆍ신탁계약내용변경",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261120900893"
         }
     ]
 }
