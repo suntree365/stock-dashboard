@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-25 11:08:35",
+    "updated_at": "2026-11-25 21:27:20",
     "macro": {
         "US30Y": {
             "price": 5.29,
@@ -17,29 +17,29 @@
             "direction": "up"
         },
         "WTI": {
-            "price": 81.35,
-            "change": 1.18,
+            "price": 82.13,
+            "change": 0.08,
             "direction": "up"
         },
         "GOLD": {
-            "price": 3547.3,
-            "change": -104.1,
+            "price": 3547.4,
+            "change": -14.5,
             "direction": "down"
         },
         "SILVER": {
-            "price": 40.98,
-            "change": -2.17,
+            "price": 40.18,
+            "change": -0.58,
             "direction": "down"
         },
         "USD_KRW": {
-            "price": 1343.38,
-            "change": 2.36,
+            "price": 1343.0,
+            "change": 1.98,
             "direction": "up"
         },
         "VIX": {
-            "price": 26.36,
-            "change": -0.26,
-            "direction": "down"
+            "price": 30.99,
+            "change": 4.63,
+            "direction": "up"
         },
         "FED_RATE": {
             "price": 5.25,
@@ -136,8 +136,12 @@
     },
     "spac_dart": [
         {
-            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
-            "link": "https://dart.fss.or.kr"
+            "title": "(코스닥)SK증권제12호스팩 - 주권매매거래정지 (상장폐지 사유발생)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261125900789"
+        },
+        {
+            "title": "(코스닥)유안타제16호스팩 - 주권매매거래정지 (상장폐지 사유발생)",
+            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261125900792"
         }
     ]
 }
