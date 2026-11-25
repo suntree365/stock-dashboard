@@ -1,44 +1,44 @@
 {
-    "updated_at": "2026-11-25 21:27:20",
+    "updated_at": "2026-11-26 07:17:53",
     "macro": {
         "US30Y": {
-            "price": 5.29,
-            "change": -0.0,
+            "price": 5.23,
+            "change": -0.06,
             "direction": "down"
         },
         "US10Y": {
-            "price": 4.9,
-            "change": -0.01,
+            "price": 4.85,
+            "change": -0.06,
             "direction": "down"
         },
         "US2Y": {
-            "price": 4.17,
-            "change": 0.02,
-            "direction": "up"
+            "price": 4.15,
+            "change": -0.01,
+            "direction": "down"
         },
         "WTI": {
-            "price": 82.13,
-            "change": 0.08,
+            "price": 84.15,
+            "change": 2.1,
             "direction": "up"
         },
         "GOLD": {
-            "price": 3547.4,
-            "change": -14.5,
-            "direction": "down"
+            "price": 3617.8,
+            "change": 55.9,
+            "direction": "up"
         },
         "SILVER": {
-            "price": 40.18,
-            "change": -0.58,
-            "direction": "down"
+            "price": 41.67,
+            "change": 0.91,
+            "direction": "up"
         },
         "USD_KRW": {
-            "price": 1343.0,
-            "change": 1.98,
+            "price": 1343.64,
+            "change": 2.62,
             "direction": "up"
         },
         "VIX": {
-            "price": 30.99,
-            "change": 4.63,
+            "price": 28.29,
+            "change": 1.93,
             "direction": "up"
         },
         "FED_RATE": {
@@ -136,12 +136,8 @@
     },
     "spac_dart": [
         {
-            "title": "(코스닥)SK증권제12호스팩 - 주권매매거래정지 (상장폐지 사유발생)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261125900789"
-        },
-        {
-            "title": "(코스닥)유안타제16호스팩 - 주권매매거래정지 (상장폐지 사유발생)",
-            "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261125900792"
+            "title": "오늘 등록된 새로운 SPAC 관련 전자공시 보고서가 없습니다.",
+            "link": "https://dart.fss.or.kr"
         }
     ]
 }
