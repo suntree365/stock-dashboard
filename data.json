@@ -1,44 +1,44 @@
 {
-    "updated_at": "2026-11-27 16:51:14",
+    "updated_at": "2026-11-28 03:00:09",
     "macro": {
         "US30Y": {
-            "price": 5.24,
-            "change": -0.06,
-            "direction": "down"
+            "price": 5.32,
+            "change": 0.08,
+            "direction": "up"
         },
         "US10Y": {
-            "price": 4.85,
-            "change": -0.06,
-            "direction": "down"
+            "price": 4.93,
+            "change": 0.08,
+            "direction": "up"
         },
         "US2Y": {
-            "price": 4.16,
-            "change": -0.01,
+            "price": 4.15,
+            "change": -0.0,
             "direction": "down"
         },
         "WTI": {
-            "price": 86.19,
-            "change": 2.51,
-            "direction": "up"
+            "price": 82.58,
+            "change": -1.1,
+            "direction": "down"
         },
         "GOLD": {
-            "price": 3684.9,
-            "change": 149.1,
+            "price": 3659.6,
+            "change": 123.8,
             "direction": "up"
         },
         "SILVER": {
-            "price": 44.35,
-            "change": 4.3,
+            "price": 43.48,
+            "change": 3.43,
             "direction": "up"
         },
         "USD_KRW": {
-            "price": 1334.53,
-            "change": -8.44,
+            "price": 1333.96,
+            "change": -9.01,
             "direction": "down"
         },
         "VIX": {
-            "price": 26.8,
-            "change": -1.49,
+            "price": 24.69,
+            "change": -2.11,
             "direction": "down"
         },
         "FED_RATE": {
@@ -123,20 +123,8 @@
         ],
         "삼성전자": [
             {
-                "title": "(유가)삼성전자 - 특수관계인과의보험거래",
-                "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261127001858"
-            },
-            {
-                "title": "(유가)삼성전자 - 특수관계인과의보험거래",
-                "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261127001851"
-            },
-            {
-                "title": "(유가)삼성전자 - [기재정정]특수관계인과의보험거래",
-                "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261127001842"
-            },
-            {
-                "title": "(유가)삼성전자 - [기재정정]특수관계인과의보험거래",
-                "link": "https://dart.fss.or.kr/api/link.jsp?rcpNo=20261127001820"
+                "title": "오늘 제출된 DART 공식 전자공시가 없습니다.",
+                "link": "#"
             }
         ],
         "케이피에이치공산업": [
